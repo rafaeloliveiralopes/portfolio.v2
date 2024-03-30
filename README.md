@@ -2,7 +2,7 @@
 
 ## 1. About the Project, Scope, and Needs
 
-This project aims to create a landing page for showcasing web development services. The primary goal is to present the developer's capabilities, collect potential clients' information, display a portfolio of previous projects, and provide a contact section with developer information. The landing page needs to be SEO optimized, visually appealing, and user-friendly to effectively capture the interest of potential clients.
+This project aims to create a landing page for showcasing web development services. The primary goal is to present the developer's capabilities, collect potential clients' information, display a portfolio of previous projects, and provide a contact section with developer information. The landing page needs to be SEO optimized, mobile friendly, visually appealing, and user-friendly to effectively capture the interest of potential clients.
 
 ### Scope and Needs
 - **Presentation of Services**: Clearly and attractively present the web development services offered.
