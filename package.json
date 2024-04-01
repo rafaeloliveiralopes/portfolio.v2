@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -30,6 +32,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^8.0.0",
     "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
     "typescript": "^5.4.0"
   }
 }
