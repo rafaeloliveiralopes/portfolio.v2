@@ -26,6 +26,23 @@ body {
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
+main {
+  margin-top: 120px;
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  right: 0;
+  background: #11191F;
+  padding: 0;
+  transition: All 0.5s ease-in;
+  z-index: 1000;
+}
+
 #navbar,
 ul {
   margin: 2em 6em 0 0;
@@ -43,16 +60,9 @@ ul {
   color: lightgray;
 }
 
-a {
-  color: inherit;
+*/ a {
+  /* color: inherit; */
   text-decoration: none;
-}
-
-@media (min-width: 480px) and (max-width: 1120px) {
-  .menu-label p {
-    background-color: aqua !important;
-    font-size: 4rem;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
