@@ -6,14 +6,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg nav-links">
       <div className="container-fluid">
         <div>
           <a className="navbar-brand text-light fs-6" href="/">
             rafaellopes.dev
           </a>
         </div>
-        <p className="menu-label mt-4 fs-6">Menu</p>
         <button
           className="navbar-toggler"
           type="button"
