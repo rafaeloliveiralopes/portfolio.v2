@@ -13,7 +13,7 @@ const Navbar = () => {
             rafaellopes.dev
           </a>
         </div>
-        <p className=" menu-label mt-4 fs-6">Menu</p>
+        <p className="menu-label mt-4 fs-6">Menu</p>
         <button
           className="navbar-toggler"
           type="button"
