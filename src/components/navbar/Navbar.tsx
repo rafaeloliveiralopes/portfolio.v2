@@ -6,7 +6,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg nav-links">
+    <nav className="navbar navbar-expand-lg nav-links mt-3">
       <div className="container-fluid">
         <div>
           <a className="navbar-brand text-light fs-6" href="/">
