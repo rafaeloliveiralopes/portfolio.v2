@@ -28,7 +28,9 @@ export default function Home() {
         <div>
           <button className="btn-custom">Conheça meus serviços</button>
         </div>
-        <p className="fs-3 py-5">Faço suas idéias ganhar vida!</p>
+        <p className="gradient-paragraph fs-2 fw-bold py-5">
+          Faço suas idéias ganhar vida!
+        </p>
       </div>
     </main>
   );

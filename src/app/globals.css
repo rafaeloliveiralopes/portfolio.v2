@@ -80,6 +80,15 @@ ul {
   background-image: linear-gradient(to right, #007BFF, #004F9F);
 }
 
+.gradient-paragraph {
+  background: linear-gradient(to left, #00ccd9, #e9eaea);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
 a {
   text-decoration: none;
 }
