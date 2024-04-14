@@ -39,7 +39,7 @@ export default function Home() {
         <div className="my-4">
           <Image
             src="/rafael-desenvolvedor-full-stack.jpg"
-            alt="Desenvolvedor Full Stack trabalhando em um projeto com seu desktop."
+            alt="Foto do Desenvolvedor Full Stack, Rafael Lopes de perfil e olhando para cima . Ele está usando camiseta cinza clara, camisa xadrez com tons de verde escuro e preto e calça preta. O Desenvolvedor Rafael Lopes é um homem negro de cabelos e olhos pretos"
             width={195}
             height={200}
             style={{ borderRadius: "39px" }}
