@@ -7,7 +7,7 @@ export default function Home() {
         <h1 className="greetings fs-5 px-4">
           Olá! Sou Desenvolvedor Web Full Stack
         </h1>
-        <div className="mx-auto" style={{ maxWidth: "90%" }}>
+        <div className="mx-auto" style={{ maxWidth: "95%" }}>
           <p className="fs-6 my-3 text-start">
             Com expertise em tecnologias de ponta e uma abordagem personalizada,
             estou aqui para elevar sua presença online e trazer resultados
@@ -47,7 +47,7 @@ export default function Home() {
             className="shadow-sm"
           />
         </div>
-        <div className="mx-auto" style={{ maxWidth: "90%" }}>
+        <div className="mx-auto" style={{ maxWidth: "95%" }}>
           <p className="fs-6 text-start">
             Minha filosofia é simples: entender profundamente as necessidades de
             cada cliente e transformá-las em resultados tangíveis, seja
