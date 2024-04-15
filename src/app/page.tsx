@@ -69,11 +69,11 @@ export default function Home() {
           </p>
         </div>
       </div>
-      {/* Serviços Section */}
+      {/* Seção Serviços */}
       {/* Desenvolvimento */}
       <div className="container-fluid text-center my-5">
-        <h3 className="fs-1 my-4">Serviços</h3>
-        <p className="fs-4 mb-1">Desenvolvimento</p>
+        <h3 className="fs-1 my-5 pb-4">Serviços</h3>
+        <p className="fs-4 mb-4">Desenvolvimento</p>
         <div className="my-2">
           <Image
             src="/desenvolvedor-web-sentado-no-chao-com-notebook-no-colo.svg"
@@ -85,14 +85,14 @@ export default function Home() {
         </div>
         <div className="d-block">
           <button
-            className="btn-custom fs-5"
+            className="btn-custom fs-5 mb-5"
             style={{ height: "50px", width: "189px" }}
           >
             Saiba mais
           </button>
         </div>
       </div>
-      {/* Serviços Section */}
+      {/* Seção Serviços */}
       {/* SEO */}
       <div className="container-fluid text-center my-5">
         <p className="fs-4 mb-1">SEO</p>
@@ -107,7 +107,29 @@ export default function Home() {
         </div>
         <div className="d-block">
           <button
-            className="btn-custom fs-5"
+            className="btn-custom fs-5 mb-5"
+            style={{ height: "50px", width: "189px" }}
+          >
+            Saiba mais
+          </button>
+        </div>
+      </div>
+      {/* Seção Serviços */}
+      {/* Gestão de Tráfego */}
+      <div className="container-fluid text-center my-5">
+        <p className="fs-4 mb-4">Gestão de Tráfego</p>
+        <div className="my-2">
+          <Image
+            src="/gestao-de-trafego.svg"
+            alt="Imagem SVG representando dois homens e uma mulher realizando o trabalho de gestão de tráfego para aumentar as vendas."
+            width={200}
+            height={200}
+            layout="intrinsic"
+          />
+        </div>
+        <div className="d-block">
+          <button
+            className="btn-custom fs-5 mb-5 my-3"
             style={{ height: "50px", width: "189px" }}
           >
             Saiba mais
