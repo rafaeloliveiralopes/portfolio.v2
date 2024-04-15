@@ -35,6 +35,7 @@ export default function Home() {
         className="container-fluid bg-about py-4 text-center"
         style={{ backgroundColor: "#609085" }}
       >
+        {/* About me section */}
         <h2 className="fs-1 my-4">Sobre mim</h2>
         <div className="my-4">
           <Image
@@ -66,6 +67,28 @@ export default function Home() {
               Leia mais...
             </a>
           </p>
+        </div>
+      </div>
+      {/* Serviços Section */}
+      <div className="container-fluid text-center my-5">
+        <h3 className="fs-1 my-4">Serviços</h3>
+        <p className="fs-4">Desenvolvimento</p>{" "}
+        <div className="my-4">
+          <Image
+            src="/desenvolvedor-web-sentado-no-chao-com-notebook-no-colo.svg"
+            alt="Imagem SVG de um Desenvolvedor Full Stack trabalhando tranquilamente sentado no chão com seu desktop no colo. Na sua frente a ícones parecidos com hologramas representando as linguagens de programação que ele domina. Atrás dele tem uma imagem da tela de computador do tamanho dele com códigos na tela."
+            width={200}
+            height={200}
+            layout="intrinsic"
+          />
+        </div>
+        <div className="d-block">
+          <button
+            className="btn-custom fs-5"
+            style={{ height: "50px", width: "189px" }}
+          >
+            Saiba mais
+          </button>
         </div>
       </div>
     </main>
