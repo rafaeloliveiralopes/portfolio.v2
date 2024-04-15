@@ -92,6 +92,10 @@ a {
   text-decoration: none;
 }
 
+.letter-spacing {
+  letter-spacing: 0.05em;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
