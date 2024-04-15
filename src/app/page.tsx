@@ -70,13 +70,36 @@ export default function Home() {
         </div>
       </div>
       {/* Serviços Section */}
+      {/* Desenvolvimento */}
       <div className="container-fluid text-center my-5">
         <h3 className="fs-1 my-4">Serviços</h3>
-        <p className="fs-4">Desenvolvimento</p>{" "}
-        <div className="my-4">
+        <p className="fs-4 mb-1">Desenvolvimento</p>
+        <div className="my-2">
           <Image
             src="/desenvolvedor-web-sentado-no-chao-com-notebook-no-colo.svg"
             alt="Imagem SVG de um Desenvolvedor Full Stack trabalhando tranquilamente sentado no chão com seu desktop no colo. Na sua frente a ícones parecidos com hologramas representando as linguagens de programação que ele domina. Atrás dele tem uma imagem da tela de computador do tamanho dele com códigos na tela."
+            width={200}
+            height={200}
+            layout="intrinsic"
+          />
+        </div>
+        <div className="d-block">
+          <button
+            className="btn-custom fs-5"
+            style={{ height: "50px", width: "189px" }}
+          >
+            Saiba mais
+          </button>
+        </div>
+      </div>
+      {/* Serviços Section */}
+      {/* SEO */}
+      <div className="container-fluid text-center my-5">
+        <p className="fs-4 mb-1">SEO</p>
+        <div className="my-2">
+          <Image
+            src="/homem-segurando-lupa-gigante-buscando-seo.svg"
+            alt="Imagem SVG de um Desenvolvedor Full Stack segurando uma lupa gigante em busca de problemas de SEO (Search Engine Optimization) códigos na tela do computador."
             width={200}
             height={200}
             layout="intrinsic"
