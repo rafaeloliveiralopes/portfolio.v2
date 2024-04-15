@@ -63,7 +63,10 @@ export default function Home() {
           <p className="fs-6 text-start">
             Gostaria de saber mais como cheguei até aqui e como posso contribuir
             para o seu negócio?{" "}
-            <a href="#" className="text-primary-empahsis fw-bold">
+            <a
+              href="#"
+              className="text-primary-empahsis fw-bold text-decoration-underline letter-spacing"
+            >
               Leia mais...
             </a>
           </p>
