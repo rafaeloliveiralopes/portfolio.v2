@@ -1,9 +1,11 @@
+import React from "react";
 import Image from "next/image";
+import ContactForm from "../components/form/ContactForm";
 
 export default function Home() {
   return (
     <main>
-      <div className="container-fluid text-center">
+      <section className="container-fluid text-center">
         <h1 className="greetings fs-5 px-4">
           Olá! Sou Desenvolvedor Web Full Stack
         </h1>
@@ -30,8 +32,8 @@ export default function Home() {
         <p className="gradient-paragraph fs-2 fw-bold my-3 pb-5">
           Faço suas idéias ganhar vida!
         </p>
-      </div>
-      <div
+      </section>
+      <section
         className="container-fluid bg-about py-4 text-center"
         style={{ backgroundColor: "#609085" }}
       >
@@ -71,10 +73,10 @@ export default function Home() {
             </a>
           </p>
         </div>
-      </div>
-      {/* Seção Serviços */}
+      </section>
+      {/* Services Section */}
       {/* Desenvolvimento */}
-      <div className="container-fluid text-center my-5">
+      <section className="container-fluid text-center my-5">
         <h3 className="fs-1 my-5 pb-4">Serviços</h3>
         <p className="fs-4 mb-4">Desenvolvimento</p>
         <div className="my-2">
@@ -94,51 +96,50 @@ export default function Home() {
             Saiba mais
           </button>
         </div>
-      </div>
-      {/* Seção Serviços */}
-      {/* SEO */}
-      <div className="container-fluid text-center my-5">
-        <p className="fs-4 mb-1">SEO</p>
-        <div className="my-2">
-          <Image
-            src="/homem-segurando-lupa-gigante-buscando-seo.svg"
-            alt="Imagem SVG de um Desenvolvedor Full Stack segurando uma lupa gigante em busca de problemas de SEO (Search Engine Optimization) códigos na tela do computador."
-            width={200}
-            height={200}
-            layout="intrinsic"
-          />
+        {/* SEO */}
+        <div className="container-fluid text-center my-5">
+          <p className="fs-4 mb-1">SEO</p>
+          <div className="my-2">
+            <Image
+              src="/homem-segurando-lupa-gigante-buscando-seo.svg"
+              alt="Imagem SVG de um Desenvolvedor Full Stack segurando uma lupa gigante em busca de problemas de SEO (Search Engine Optimization) códigos na tela do computador."
+              width={200}
+              height={200}
+              layout="intrinsic"
+            />
+          </div>
+          <div className="d-block">
+            <button
+              className="btn-custom fs-5 mb-5"
+              style={{ height: "50px", width: "189px" }}
+            >
+              Saiba mais
+            </button>
+          </div>
         </div>
-        <div className="d-block">
-          <button
-            className="btn-custom fs-5 mb-5"
-            style={{ height: "50px", width: "189px" }}
-          >
-            Saiba mais
-          </button>
+        {/* Gestão de Tráfego */}
+        <div className="container-fluid text-center my-5">
+          <p className="fs-4 mb-4">Gestão de Tráfego</p>
+          <div className="my-2">
+            <Image
+              src="/gestao-de-trafego.svg"
+              alt="Imagem SVG representando dois homens e uma mulher realizando o trabalho de gestão de tráfego para aumentar as vendas."
+              width={200}
+              height={200}
+              layout="intrinsic"
+            />
+          </div>
+          <div className="d-block">
+            <button
+              className="btn-custom fs-5 mb-5 my-3"
+              style={{ height: "50px", width: "189px" }}
+            >
+              Saiba mais
+            </button>
+          </div>
         </div>
-      </div>
-      {/* Seção Serviços */}
-      {/* Gestão de Tráfego */}
-      <div className="container-fluid text-center my-5">
-        <p className="fs-4 mb-4">Gestão de Tráfego</p>
-        <div className="my-2">
-          <Image
-            src="/gestao-de-trafego.svg"
-            alt="Imagem SVG representando dois homens e uma mulher realizando o trabalho de gestão de tráfego para aumentar as vendas."
-            width={200}
-            height={200}
-            layout="intrinsic"
-          />
-        </div>
-        <div className="d-block">
-          <button
-            className="btn-custom fs-5 mb-5 my-3"
-            style={{ height: "50px", width: "189px" }}
-          >
-            Saiba mais
-          </button>
-        </div>
-      </div>
+      </section>
+      {/* Portfolio Section */}
       <section className="container my-5">
         <h2 className="fs-1 text-center mb-5">Portfolio</h2>
         <div className="row row-cols-1 row-cols-md-3 g-4">
@@ -167,6 +168,24 @@ export default function Home() {
             </div>
           ))}
         </div>
+      </section>
+      {/* Contact Section */}
+      <section className="container my-5 text-center">
+        <p className="gradient-paragraph fs-2 fw-bold my-3">
+          Venha dar vida a sua ideia!
+        </p>
+        <div className="my-4">
+          <Image
+            src="/formulario-de-contatos.svg"
+            alt="Foto do Desenvolvedor Full Stack, Rafael Lopes de perfil e olhando para cima . Ele está usando camiseta cinza clara, camisa xadrez com tons de verde escuro e preto e calça preta. O Desenvolvedor Rafael Lopes é um homem negro de cabelos e olhos pretos"
+            width={300}
+            height={480}
+            style={{ borderRadius: "39px" }}
+            layout="intrinsic"
+            className="shadow-sm"
+          />
+        </div>
+        <ContactForm />
       </section>
     </main>
   );
