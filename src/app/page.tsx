@@ -1,4 +1,6 @@
+import React from "react";
 import Image from "next/image";
+import ContactForm from "../components/form/ContactForm";
 
 export default function Home() {
   return (
@@ -115,28 +117,28 @@ export default function Home() {
             </button>
           </div>
         </div>
+        {/* Gestão de Tráfego */}
+        <div className="container-fluid text-center my-5">
+          <p className="fs-4 mb-4">Gestão de Tráfego</p>
+          <div className="my-2">
+            <Image
+              src="/gestao-de-trafego.svg"
+              alt="Imagem SVG representando dois homens e uma mulher realizando o trabalho de gestão de tráfego para aumentar as vendas."
+              width={200}
+              height={200}
+              layout="intrinsic"
+            />
+          </div>
+          <div className="d-block">
+            <button
+              className="btn-custom fs-5 mb-5 my-3"
+              style={{ height: "50px", width: "189px" }}
+            >
+              Saiba mais
+            </button>
+          </div>
+        </div>
       </section>
-      {/* Gestão de Tráfego */}
-      <div className="container-fluid text-center my-5">
-        <p className="fs-4 mb-4">Gestão de Tráfego</p>
-        <div className="my-2">
-          <Image
-            src="/gestao-de-trafego.svg"
-            alt="Imagem SVG representando dois homens e uma mulher realizando o trabalho de gestão de tráfego para aumentar as vendas."
-            width={200}
-            height={200}
-            layout="intrinsic"
-          />
-        </div>
-        <div className="d-block">
-          <button
-            className="btn-custom fs-5 mb-5 my-3"
-            style={{ height: "50px", width: "189px" }}
-          >
-            Saiba mais
-          </button>
-        </div>
-      </div>
       {/* Portfolio Section */}
       <section className="container my-5">
         <h2 className="fs-1 text-center mb-5">Portfolio</h2>
@@ -166,6 +168,24 @@ export default function Home() {
             </div>
           ))}
         </div>
+      </section>
+      {/* Contact Section */}
+      <section className="container my-5 text-center">
+        <p className="gradient-paragraph fs-2 fw-bold my-3">
+          Venha dar vida a sua ideia!
+        </p>
+        <div className="my-4">
+          <Image
+            src="/formulario-de-contatos.svg"
+            alt="Foto do Desenvolvedor Full Stack, Rafael Lopes de perfil e olhando para cima . Ele está usando camiseta cinza clara, camisa xadrez com tons de verde escuro e preto e calça preta. O Desenvolvedor Rafael Lopes é um homem negro de cabelos e olhos pretos"
+            width={300}
+            height={480}
+            style={{ borderRadius: "39px" }}
+            layout="intrinsic"
+            className="shadow-sm"
+          />
+        </div>
+        <ContactForm />
       </section>
     </main>
   );
