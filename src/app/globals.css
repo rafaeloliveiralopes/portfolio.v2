@@ -96,6 +96,24 @@ a {
   letter-spacing: 0.05em;
 }
 
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  color: #b4b2b2f1;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #62dbe9;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
