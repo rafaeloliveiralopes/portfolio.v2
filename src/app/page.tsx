@@ -139,6 +139,35 @@ export default function Home() {
           </button>
         </div>
       </div>
+      <section className="container my-5">
+        <h2 className="fs-1 text-center mb-5">Portfolio</h2>
+        <div className="row row-cols-1 row-cols-md-3 g-4">
+          {Array.from({ length: 5 }).map((_, index) => (
+            <div key={index} className="col">
+              <div className="card h-100">
+                <Image
+                  src="/path/to/mockup-image.jpg"
+                  alt={`Project ${index + 1}`}
+                  width={500}
+                  height={300}
+                  layout="responsive"
+                  className="card-img-top"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Project Title {index + 1}</h5>
+                  <p className="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque vitae dapibus ex.
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <small className="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }
