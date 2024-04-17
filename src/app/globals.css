@@ -110,6 +110,11 @@ footer a:hover {
   color: #62dbe9;
 }
 
+form {
+  max-width: 575px;
+  margin: auto;
+}
+
 .form-container {
   max-width: 775px;
   margin: auto;
