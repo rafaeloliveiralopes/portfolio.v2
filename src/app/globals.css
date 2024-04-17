@@ -16,14 +16,17 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background: #11191F;
+  background: #11191f;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 main {
@@ -37,7 +40,7 @@ main {
   width: 100%;
   margin: 0;
   right: 0;
-  background: #11191F;
+  background: #11191f;
   padding: 0;
   transition: All 0.5s ease-in;
   z-index: 1000;
@@ -67,7 +70,7 @@ ul {
 .btn-custom {
   border: none;
   border-radius: 14px;
-  background-image: linear-gradient(to right, #2A6DAC, #112d46);
+  background-image: linear-gradient(to right, #2a6dac, #112d46);
   cursor: pointer;
   display: inline-block;
   width: 206px;
@@ -76,7 +79,7 @@ ul {
 }
 
 .btn-custom:hover {
-  background-image: linear-gradient(to right, #007BFF, #004F9F);
+  background-image: linear-gradient(to right, #007bff, #004f9f);
 }
 
 .gradient-paragraph {

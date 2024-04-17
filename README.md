@@ -59,18 +59,23 @@ git clone [repository-url]
 cd [repository-name]
 npm install
 ```
+
 ### Running the Project
+
 To start the development server:
 
 ```sh
 npm run dev
 ```
+
 ### Linting and Formatting
+
 Run the following command to lint the code:
 
 ```sh
 npm run lint
 ```
+
 Husky and lint-staged will automatically lint and format your code when committing.
 
 ## 4. Contact
