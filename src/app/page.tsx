@@ -140,10 +140,10 @@ export default function Home() {
         </div>
       </section>
       {/* Portfolio Section */}
-      <section className="container my-5">
+      <section className="container my-5 py-5 portfolio-container">
         <h2 className="fs-1 text-center mb-5">Portfolio</h2>
-        <div className="row row-cols-1 row-cols-md-3 g-4">
-          {Array.from({ length: 5 }).map((_, index) => (
+        <div className="row row-cols-1 row-cols-md-2 row-cols-sm-2 g-4">
+          {Array.from({ length: 4 }).map((_, index) => (
             <div key={index} className="col">
               <div className="card h-100">
                 <Image

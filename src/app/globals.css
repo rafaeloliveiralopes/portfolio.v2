@@ -96,6 +96,11 @@ a {
   letter-spacing: 0.05em;
 }
 
+.portfolio-container {
+  max-width: 845px;
+  margin: auto;
+}
+
 footer .row {
   display: flex;
   align-items: center;
