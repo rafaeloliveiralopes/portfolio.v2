@@ -4,16 +4,16 @@ export default function Footer() {
       <div className="container">
         <div className="row align-items-center mx-md-0 mx-1">
           <div className="col-md-4 text-md-start mb-3">
-            <p className="mb-2">+55 (62) 99213-6842</p>{" "}
-            <p>rafaelopes.dev@gmail.com</p>
+            <p className="mb-2 fs-5">+55 (62) 99213-6842</p>{" "}
+            <p className="fs-5">rafaelopes.dev@gmail.com</p>
           </div>
           <div className="text-md-start mb-3 mb-md-0">
-            <p className="mb-2">
+            <p className="mb-2 fs-5">
               <a href="#" className="text-decoration-none text-light">
                 Termos de Serviços
               </a>
             </p>
-            <p>
+            <p className="fs-5">
               <a href="#" className="text-decoration-none text-light">
                 Política de Privacidade
               </a>
