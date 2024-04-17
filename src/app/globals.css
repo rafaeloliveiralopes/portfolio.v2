@@ -110,6 +110,17 @@ footer a:hover {
   color: #62dbe9;
 }
 
+.form-container {
+  max-width: 775px;
+  margin: auto;
+  padding: 15px;
+}
+
+.footer-main-container {
+  max-width: 800px;
+  margin: auto;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

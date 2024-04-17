@@ -3,7 +3,7 @@ import React from "react";
 function ContactForm() {
   return (
     <div
-      className="container fs-5 my-5 p-4 text-start rounded"
+      className="container fs-5 my-5 p-4 text-start rounded form-container"
       style={{ backgroundColor: "#609085" }}
     >
       <form>

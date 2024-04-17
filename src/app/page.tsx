@@ -50,7 +50,7 @@ export default function Home() {
             className="shadow-sm"
           />
         </div>
-        <div className="mx-auto" style={{ maxWidth: "95%" }}>
+        <div className="mx-auto">
           <p className="fs-6 text-start">
             Minha filosofia é simples: entender profundamente as necessidades de
             cada cliente e transformá-las em resultados tangíveis, seja
