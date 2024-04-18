@@ -115,11 +115,11 @@ form {
   margin: auto;
 }
 
-.form-container,
-.footer-main-container {
-  max-width: 100vw;
-  margin: auto;
-  padding: 15px;
+/* Custom CSS for larger font size on md devices */
+@media (min-width: 968px) {
+  .fs-md-custom p {
+    font-size: 1.3em;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

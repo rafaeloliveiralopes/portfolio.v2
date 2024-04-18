@@ -33,45 +33,47 @@ export default function Home() {
           Faço suas idéias ganhar vida!
         </p>
       </section>
+      {/* About me section */}
       <section
-        className="container-fluid bg-about py-4 text-center"
+        className="container-fluid py-4 text-center container-about-section"
         style={{ backgroundColor: "#609085" }}
       >
-        {/* About me section */}
-        <h2 className="fs-1 my-4">Sobre mim</h2>
-        <div className="my-4">
-          <Image
-            src="/rafael-desenvolvedor-full-stack.jpg"
-            alt="Foto do Desenvolvedor Full Stack, Rafael Lopes de perfil e olhando para cima . Ele está usando camiseta cinza clara, camisa xadrez com tons de verde escuro e preto e calça preta. O Desenvolvedor Rafael Lopes é um homem negro de cabelos e olhos pretos"
-            width={195}
-            height={200}
-            style={{ borderRadius: "39px" }}
-            layout="intrinsic"
-            className="shadow-sm"
-          />
-        </div>
-        <div className="mx-auto">
-          <p className="fs-6 text-start">
-            Minha filosofia é simples: entender profundamente as necessidades de
-            cada cliente e transformá-las em resultados tangíveis, seja
-            melhorando a visibilidade online, aumentando o engajamento do
-            usuário ou otimizando a performance de sites.
-          </p>
-          <p className="fs-6 text-start">
-            Acredito que uma presença digital forte e estratégica não apenas
-            destaca sua marca na multidão, mas também abre portas para novas
-            oportunidades de negócio.
-          </p>
-          <p className="fs-6 text-start">
-            Gostaria de saber mais como cheguei até aqui e como posso contribuir
-            para o seu negócio?{" "}
-            <a
-              href="#"
-              className="text-primary-empahsis fw-bold text-decoration-underline letter-spacing"
-            >
-              Leia mais...
-            </a>
-          </p>
+        <div className="row">
+          <h2 className="fs-1 me-md-5 text-center py-4">Sobre mim</h2>
+          <div className="col-md-4 col-sm-4 text-md-end mb-md-5 mb-4">
+            <Image
+              src="/rafael-desenvolvedor-full-stack.jpg"
+              alt="Foto do Desenvolvedor Full Stack, Rafael Lopes de perfil e olhando para cima. Ele está usando camiseta cinza clara, camisa xadrez com tons de verde escuro e preto e calça preta. O Desenvolvedor Rafael Lopes é um homem negro de cabelos e olhos pretos"
+              width={265}
+              height={300}
+              style={{ borderRadius: "39px" }}
+              layout="intrinsic"
+              className="shadow-sm"
+            />
+          </div>
+          <div className="col-md-7 col-sm-8 fs-md-custom mt-md-2 mb-3">
+            <p className="text-start ">
+              Minha filosofia é simples: entender profundamente as necessidades
+              de cada cliente e transformá-las em resultados tangíveis, seja
+              melhorando a visibilidade online, aumentando o engajamento do
+              usuário ou otimizando a performance de sites.
+            </p>
+            <p className="text-start">
+              Acredito que uma presença digital forte e estratégica não apenas
+              destaca sua marca na multidão, mas também abre portas para novas
+              oportunidades de negócio.
+            </p>
+            <p className="text-start">
+              Gostaria de saber mais como cheguei até aqui e como posso
+              contribuir para o seu negócio?{" "}
+              <a
+                href="#"
+                className="text-primary-empahsis fw-bold text-decoration-underline letter-spacing"
+              >
+                Leia mais...
+              </a>
+            </p>
+          </div>
         </div>
       </section>
       {/* Services Section */}
