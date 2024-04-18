@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="text-light py-5 text-align-center footer-main-container">
       <div className="container">
-        <div className="row ">
+        <div className="row">
           <div className="col-12 col-md-4 mb-3 mb-md-0 text-md-start">
             <p className="mb-2 fs-5">+55 (62) 99213-6842</p>
             <p className="fs-5">rafaelopes.dev@gmail.com</p>
