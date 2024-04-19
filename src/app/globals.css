@@ -73,6 +73,7 @@ ul {
   width: 206px;
   height: 43px;
   transition: background-color 0.3s;
+  color: #ffff;
 }
 
 .btn-custom:hover {
@@ -119,6 +120,18 @@ form {
 @media (min-width: 968px) {
   .fs-md-custom p {
     font-size: 1.3em;
+  }
+}
+
+@media (min-width: 968px) {
+  .medium-layout-h1 h1 {
+    font-size: 2.9em;
+  }
+}
+
+@media (min-width: 1380px) {
+  .container-home {
+    height: 100vh;
   }
 }
 

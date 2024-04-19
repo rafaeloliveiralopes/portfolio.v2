@@ -5,34 +5,40 @@ import ContactForm from "../components/form/ContactForm";
 export default function Home() {
   return (
     <main>
-      <section className="container-fluid text-center">
-        <h1 className="greetings fs-5 px-4">
-          Olá! Sou Desenvolvedor Web Full Stack
-        </h1>
-        <div className="mx-auto" style={{ maxWidth: "95%" }}>
-          <p className="fs-6 my-3 text-start">
-            Com expertise em tecnologias de ponta e uma abordagem personalizada,
-            estou aqui para elevar sua presença online e trazer resultados
-            tangíveis para o seu negócio. Vamos construir algo incrível juntos.
-          </p>
-          <div className="d-flex pb-5">
-            <button className="btn-custom">Conheça meus serviços</button>
+      <section className="container-home container-fluid">
+        <div className="row d-flex justify-content-center medium-layout-h1">
+          <h1 className="greetings px-4 text-center pt-md-5 mt-md-5">
+            Olá! Sou Desenvolvedor Web Full Stack
+          </h1>
+          <div className="col-xl-4 col-md-7 text-md-start text-start">
+            <div className="fs-md-custom">
+              <p>
+                Com expertise em tecnologias de ponta e uma abordagem
+                personalizada, estou aqui para elevar sua presença online e
+                trazer resultados tangíveis para o seu negócio. Vamos construir
+                algo incrível juntos.
+              </p>
+            </div>
+            <button className="btn btn-custom mb-4">
+              Conheça meus serviços
+            </button>
           </div>
+          <div className="col-xl-3 col-md-4 d-flex justify-content-center align-items-start pt-5 py-md-0 ms-xl-0">
+            <Image
+              src="/desenvolvedor-fullstack-trabalhando-no-desktop.jpg"
+              alt="Desenvolvedor Full Stack trabalhando em um projeto com seu desktop."
+              width={300}
+              height={300}
+              layout="intrinsic"
+              className="rounded-5 shadow-sm"
+            />
+          </div>
+          <p className="gradient-paragraph fs-2 fw-bold mt-5 mb-4 pb-5 text-center">
+            Faço suas idéias ganhar vida!
+          </p>
         </div>
-        <div className="image-container mt-4">
-          <Image
-            src="/desenvolvedor-fullstack-trabalhando-no-desktop.jpg"
-            alt="Desenvolvedor Full Stack trabalhando em um projeto com seu desktop."
-            width={250}
-            height={250}
-            layout="intrinsic"
-            className="rounded-3 shadow-sm"
-          />
-        </div>
-        <p className="gradient-paragraph fs-2 fw-bold my-3 pb-5">
-          Faço suas idéias ganhar vida!
-        </p>
       </section>
+
       {/* About me section */}
       <section
         className="container-fluid py-4 text-center container-about-section"
@@ -40,15 +46,14 @@ export default function Home() {
       >
         <div className="row">
           <h2 className="fs-1 me-md-5 text-center py-4">Sobre mim</h2>
-          <div className="col-md-4 col-sm-4 text-md-end mb-md-5 mb-4">
+          <div className="col-md-4 col-sm-4 text-md-end mb-md-5 mb-4 mt-md-0">
             <Image
               src="/rafael-desenvolvedor-full-stack.jpg"
               alt="Foto do Desenvolvedor Full Stack, Rafael Lopes de perfil e olhando para cima. Ele está usando camiseta cinza clara, camisa xadrez com tons de verde escuro e preto e calça preta. O Desenvolvedor Rafael Lopes é um homem negro de cabelos e olhos pretos"
               width={265}
               height={300}
-              style={{ borderRadius: "39px" }}
               layout="intrinsic"
-              className="shadow-sm"
+              className="rounded-5 shadow-sm"
             />
           </div>
           <div className="col-md-7 col-sm-8 fs-md-custom mt-md-2 mb-3">
