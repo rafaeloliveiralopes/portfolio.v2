@@ -84,7 +84,6 @@ export default function Home() {
         </div>
       </section>
       {/* Services Section */}
-      {/* Desenvolvimento */}
       <section className="pt-5" id="services">
         <h3 className="fs-1 my-5 pb-4 text-center">Serviços</h3>
         <div className="container text-center my-5">
