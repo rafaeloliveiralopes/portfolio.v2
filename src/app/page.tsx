@@ -38,10 +38,10 @@ export default function Home() {
           </p>
         </div>
       </section>
-
       {/* About me section */}
       <section
         className="container-fluid py-4 text-center container-about-section"
+        id="about"
         style={{ backgroundColor: "#609085" }}
       >
         <div className="row">
@@ -83,7 +83,7 @@ export default function Home() {
       </section>
       {/* Services Section */}
       {/* Desenvolvimento */}
-      <section className="pt-5">
+      <section className="pt-5" id="services">
         <h3 className="fs-1 my-5 pb-4 text-center">Serviços</h3>
         <div className="container text-center my-5">
           <div className="row">
@@ -148,7 +148,10 @@ export default function Home() {
         </div>
       </section>
       {/* Portfolio Section */}
-      <section className="container my-5 py-md-5 portfolio-container">
+      <section
+        className="container my-5 py-md-5 portfolio-container"
+        id="portfolio"
+      >
         <h2 className="fs-1 text-center mb-5">Portfolio</h2>
         <div className="row row-cols-1 row-cols-md-2 row-cols-sm-1 g-4">
           {Array.from({ length: 4 }).map((_, index) => (
