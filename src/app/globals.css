@@ -82,6 +82,7 @@ ul {
 
 .btn-custom:hover {
   background-image: linear-gradient(to right, #007bff, #004f9f);
+  color: #ffff;
 }
 
 .gradient-paragraph {

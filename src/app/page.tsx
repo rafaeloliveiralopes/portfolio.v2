@@ -19,9 +19,11 @@ export default function Home() {
                 algo incrível juntos.
               </p>
             </div>
-            <button className="btn btn-custom mb-4">
-              Conheça meus serviços
-            </button>
+            <a href="#services" className="btn-link-custom">
+              <button className="btn btn-custom mb-4">
+                Conheça meus serviços
+              </button>
+            </a>
           </div>
           <div className="col-xl-3 col-md-4 d-flex justify-content-center align-items-start pt-5 py-md-0 ms-xl-0">
             <Image
