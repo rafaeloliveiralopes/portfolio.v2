@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import ContactForm from "../components/form/ContactForm";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -59,7 +60,7 @@ export default function Home() {
             />
           </div>
           <div className="col-md-7 col-sm-8 fs-md-custom mt-md-2 mb-3">
-            <p className="text-start ">
+            <p className="text-start">
               Minha filosofia é simples: entender profundamente as necessidades
               de cada cliente e transformá-las em resultados tangíveis, seja
               melhorando a visibilidade online, aumentando o engajamento do
@@ -72,14 +73,13 @@ export default function Home() {
             </p>
             <p className="text-start">
               Gostaria de saber mais como cheguei até aqui e como posso
-              contribuir para o seu negócio?{" "}
-              <a
-                href="#"
-                className="text-primary-empahsis fw-bold text-decoration-underline letter-spacing"
-              >
-                Leia mais...
-              </a>
+              contribuir para o seu negócio?
             </p>
+            <Link href="/about">
+              <p className="text-primary-empahsis fw-bold text-decoration-underline letter-spacing">
+                Leia mais...
+              </p>
+            </Link>
           </div>
         </div>
       </section>
