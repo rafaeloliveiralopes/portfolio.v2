@@ -44,7 +44,7 @@ export default function Home() {
       {/* About me section */}
       <section
         className="container-fluid py-4 text-center container-about-section"
-        id="about"
+        id="about-home"
         style={{ backgroundColor: "#609085" }}
       >
         <div className="row">
@@ -75,7 +75,7 @@ export default function Home() {
               Gostaria de saber mais como cheguei até aqui e como posso
               contribuir para o seu negócio?
             </p>
-            <Link href="/about">
+            <Link href="/about-page">
               <p className="text-primary-empahsis fw-bold text-decoration-underline letter-spacing">
                 Leia mais...
               </p>
