@@ -9,7 +9,7 @@ export default function About() {
     <>
       <Navbar />
       <main className="container my-5">
-        <section id="about-me">
+        <section id="about-page">
           <ScriptBootstrap />
           <h1 className="display-4 mb-3">Sobre mim</h1>
           <div className="row">
