@@ -44,7 +44,7 @@ export default function Home() {
       {/* About me section */}
       <section
         className="container-fluid py-4 text-center container-about-section"
-        id="about-home"
+        id="about"
         style={{ backgroundColor: "#609085" }}
       >
         <div className="row">

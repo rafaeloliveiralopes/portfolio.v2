@@ -1,19 +1,8 @@
-"use client";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useRouter } from "next/navigation";
 
-const Navbar = () => {
+export default function Navbar() {
   const navbarTogglerIconStyle = {
     backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(224, 224, 224, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")`,
-  };
-
-  const router = useRouter();
-
-  const handleAboutClick = (e: { preventDefault: () => void }) => {
-    if (router.asPath === "/about-page") {
-      e.preventDefault();
-      router.replace("../../app/page.tsx");
-    }
   };
 
   return (
@@ -46,11 +35,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link text-white"
-                href="/#about-home"
-                onClick={handleAboutClick}
-              >
+              <a className="nav-link text-white" href="#about">
                 Sobre mim
               </a>
             </li>
@@ -78,6 +63,4 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
-
-export default Navbar;
+}
