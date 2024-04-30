@@ -3,42 +3,45 @@ import Navbar from "@/components/navbar/Navbar";
 import ScriptBootstrap from "@/components/ScriptBootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./About.modules.css";
+import Image from "next/image";
 
 export default function About() {
   return (
     <>
       <Navbar />
-      <main className="container my-5">
-        <section id="about-page">
+      <main className="container pt-4">
+        <section id="about-page" className="row my-5 py-5 align-items-center">
           <ScriptBootstrap />
-          <h1 className="display-4 mb-3">Sobre mim</h1>
-          <div className="row">
-            <div className="col-md-8">
-              <p className="lead">Aqui um breve histórico sobre mim.</p>
-            </div>
-            <div className="col-md-11">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent varius lorem lectus. Donec eget odio quis nulla rhoncus
-                fermentum. Nam vel massa volutpat, rhoncus nibh non, malesuada
-                eros. Sed quis finibus mi. Fusce dignissim enim in accumsan
-                pretium. Quisque tincidunt consectetur scelerisque. Nullam
-                feugiat, massa sed pretium gravida, tellus elit condimentum
-                nulla, ac commodo nulla arcu nec mi. Nulla ex tellus, laoreet
-                non tellus sed, accumsan interdum sapien. Mauris iaculis enim eu
-                fringilla mattis. Curabitur ut sodales justo, eget volutpat
-                erat. Duis orci urna, dignissim at libero a, auctor efficitur
-                massa. Aenean odio dolor, efficitur sit amet tempor ac,
-                condimentum id lorem. Fusce pulvinar, magna vel blandit aliquam,
-                odio nulla fringilla nunc, a commodo purus nulla vel mi.
-                Maecenas sed condimentum libero. Cras quis metus id turpis
-                venenatis fermentum.
-              </p>
-            </div>
+          <div className="col-12 col-sm-8 col-md-5 col-xl-4 d-flex align-items-center">
+            <Image
+              src="/imagem-rafael-pagina-sobre-mim.svg"
+              alt="Foto do Desenvolvedor Full Stack, Rafael Lopes usando camiseta cinza e camiza longa xadrez verde escura com preto."
+              width={400}
+              height={400}
+              layout="intrisic"
+              className="img-fluid"
+            />
+          </div>
+          <div className="col-12 col-xl-8 mt-md-2 fs-5">
+            <h1>Me chamo Rafael</h1>
+            <p>
+              Sou desenvolvedor full stack, moro no Brasil e a minha jornada no
+              mundo da programação e desenvolvimento web começou em 2018 com o
+              wordpress. E em dezembro de 2021 decidi mergulhar fundo no mundo
+              do desenvolvimento web.
+            </p>
+            <p>
+              Hoje, estou dedicado a transformar ideias em realidade digital,
+              especializando-me em desenvolver sites que não apenas atendem, mas
+              superam as expectativas dos clientes em termos de desempenho e
+              acessibilidade.
+            </p>
           </div>
         </section>
         <section>
-          <h2>Histórico acadêmico</h2>
+          <h2 className="gradient-paragraph fs-2 fw-bold mt-5 mb-4 pb-5 text-center">
+            Minha jornada
+          </h2>
           <p>Conquistas acadêmicas e timeline</p>
           <p>
             Ut vestibulum tincidunt velit at imperdiet. Duis quam sem, finibus
