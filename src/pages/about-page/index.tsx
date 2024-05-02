@@ -39,19 +39,91 @@ export default function About() {
           </div>
         </section>
         <section>
-          <h2 className="gradient-paragraph fs-2 fw-bold mt-5 mb-4 pb-5 text-center">
-            Minha jornada
-          </h2>
-          <p>Conquistas acadêmicas e timeline</p>
-          <p>
-            Ut vestibulum tincidunt velit at imperdiet. Duis quam sem, finibus
-            id rutrum tempor, eleifend a massa. Quisque elit ipsum, efficitur et
-            ligula suscipit, aliquet mollis velit. Nullam bibendum gravida
-            magna, in aliquet ex aliquet vitae. Quisque cursus felis id odio
-            molestie, non molestie elit ornare. Aliquam faucibus enim sed mollis
-            malesuada. Praesent pharetra accumsan interdum. Sed eu purus diam.
-            Donec rhoncus maximus tortor, vitae efficitur leo consequat vel.
-          </p>
+          <div className="text-center">
+            <h2 className="gradient-paragraph fs-2 fw-bold mt-md-5">
+              Minha jornada
+            </h2>
+          </div>
+          <div className="container py-5 fs-5">
+            <div className="main-timeline">
+              <div className="timeline left">
+                <div className="card">
+                  <div className="card-body">
+                    <h3>2024 - O momento: Desenvolvedor Web Freelancer</h3>
+                    <p className="mb-0">
+                      Estou sempre atualizando meus conhecimentos em SEO e
+                      gestão de tráfego para garantir que os sites que
+                      desenvolvo alcancem uma posição de destaque e atraiam
+                      efetivamente o público desejado.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="timeline right">
+                <div className="card">
+                  <div className="card-body p-4">
+                    <h3>2023 - 2024: Expansão de Habilidades</h3>
+                    <p className="mb-0">
+                      Atuei como recepcionista no Hospital Estadual do Centro
+                      Norte Goiano, onde desenvolvi habilidades interpessoais
+                      cruciais e gerenciamento de situações de alta pressão.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="timeline left">
+                <div className="card">
+                  <div className="card-body p-4">
+                    <h3>2022 - 2023: Transição para Tech</h3>
+                    <p className="mb-0">
+                      Decidi fazer uma mudança ousada para o desenvolvimento
+                      web. Completando um bootcamp de um ano, desenvolvi uma
+                      paixão por criar soluções digitais que atendem e superam
+                      as necessidades dos usuários.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="timeline right">
+                <div className="card">
+                  <div className="card-body p-4">
+                    <h3>2016 - 2021: Advocacia e Tecnologia</h3>
+                    <p className="mb-0">
+                      Navegando pelo mundo do direito previdenciário, utilizei
+                      tecnologias para peticionamento e acompanhamento
+                      processual, fortalecendo minhas capacidades analíticas e
+                      planejamento estratégico.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="timeline left">
+                <div className="card">
+                  <div className="card-body p-4">
+                    <h3>2012 - 2016: Liderança e Gestão</h3>
+                    <p className="mb-0">
+                      Promovido a Encarregado de Operações, liderei uma equipe
+                      de 8 pessoas, aprofundando minhas habilidades em
+                      liderança, treinamento de equipes e segurança do trabalho.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="timeline right">
+                <div className="card">
+                  <div className="card-body p-4">
+                    <h3>2006 - 2012: Início da Jornada</h3>
+                    <p className="mb-0">
+                      Começando como Operador Júnior na Vopak, mergulhei nas
+                      ferramentas da qualidade e na gestão de inventário,
+                      cultivando uma base sólida em organização e atenção aos
+                      detalhes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <section>
           <h2>Experiência profissional</h2>
