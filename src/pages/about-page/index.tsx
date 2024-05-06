@@ -169,7 +169,7 @@ export default function About() {
                 className="img-fluid rounded"
               />
             </div>
-            <div className="col-md-7 fs-5">
+            <div className="col-md-8 fs-5">
               <p>
                 <strong>Música e Criatividade</strong>: Minha dedicação de três
                 anos ao conservatório de música, focado no violão clássico, não
@@ -180,6 +180,31 @@ export default function About() {
                 Habilidades essas que se traduzem diretamente na meticulosa
                 codificação e design de interfaces de usuário que você verá em
                 meu trabalho.
+              </p>
+            </div>
+          </div>
+          <div className="row flex-md-row-reverse align-items-center my-4">
+            <div className="col-xl-4 col-md-5 mb-3 mb-md-0">
+              <Image
+                src="/coracao-mosaico-rafa-ane-rodolpho.svg"
+                alt="Foto do Desenvolvedor Full Stack, Rafael Lopes usando camiseta cinza e camisa longa xadrez verde escura com preto."
+                width={400}
+                height={400}
+                layout="intrinsic"
+                className="img-fluid rounded"
+              />
+            </div>
+            <div className="col-md-8 fs-5">
+              <p>
+                <strong>Vida e Equilíbrio</strong>: Quando não estou programando
+                ou otimizando sites para os motores de busca, eu valorizo o
+                tempo de qualidade jogando videogames, lendo ou assistindo
+                seriados com minha esposa.
+              </p>
+              <p>
+                Acredito que um equilíbrio saudável entre trabalho e vida
+                pessoal é crucial para o pensamento inovador e a
+                sustentabilidade de um alto desempenho profissional.
               </p>
             </div>
           </div>
