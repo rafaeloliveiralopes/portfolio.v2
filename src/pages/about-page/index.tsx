@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/Navbar";
 import ScriptBootstrap from "@/components/ScriptBootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./About.modules.css";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function About() {
@@ -124,6 +125,27 @@ export default function About() {
               </div>
             </div>
           </div>
+          <p className="fs-5">
+            Minha trajetória acadêmica destaca-se por um incessante anseio por
+            aprendizado e aperfeiçoamento. Desde especializações técnicas até
+            uma educação abrangente em engenharia de software, cada etapa do meu
+            percurso foi essencial para construir uma base sólida de
+            conhecimento que utilizo para entregar soluções práticas e
+            eficientes
+          </p>
+          <p className="fs-5">
+            Para mais detalhes sobre minha formação e certificações, convido
+            você a visualizar meu{" "}
+            <Link
+              href="https://www.canva.com/design/DAFNFtphlKg/beqYIdMMCwk5DH9ElJX6iw/edit?continue_in_browser=true"
+              passHref
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              currículo
+            </Link>
+            .
+          </p>
         </section>
         <section>
           <h2>Experiência profissional</h2>
