@@ -171,7 +171,7 @@ export default function About() {
             </div>
             <div className="col-md-8 fs-5">
               <p>
-                <strong>Música e Criatividade</strong>: Minha dedicação de três
+                <strong>Música e Criatividade:</strong> Minha dedicação de três
                 anos ao conservatório de música, focado no violão clássico, não
                 só alimentou minha alma artística mas também refinou minha
                 atenção aos detalhes e minha capacidade de concentração.
@@ -196,7 +196,7 @@ export default function About() {
             </div>
             <div className="col-md-8 fs-5">
               <p>
-                <strong>Vida e Equilíbrio</strong>: Quando não estou programando
+                <strong>Vida e Equilíbrio:</strong> Quando não estou programando
                 ou otimizando sites para os motores de busca, eu valorizo o
                 tempo de qualidade jogando videogames, lendo ou assistindo
                 seriados com minha esposa.
@@ -205,6 +205,33 @@ export default function About() {
                 Acredito que um equilíbrio saudável entre trabalho e vida
                 pessoal é crucial para o pensamento inovador e a
                 sustentabilidade de um alto desempenho profissional.
+              </p>
+            </div>
+          </div>
+          <div className="row align-items-center my-4">
+            <div className="col-xl-4 col-md-5 mb-3 mb-md-0">
+              <Image
+                src="/ceu-estrelado.jpg"
+                alt="Foto do Desenvolvedor Full Stack, Rafael Lopes usando camiseta cinza e camisa longa xadrez verde escura com preto."
+                width={400}
+                height={400}
+                layout="intrinsic"
+                className="img-fluid rounded"
+              />
+            </div>
+            <div className="col-md-8 fs-5">
+              <p>
+                <strong>Crescimento e Autoconhecimento:</strong> Meu compromisso
+                com o autoconhecimento é refletido nos resultados do meu perfil
+                DISC (Dominância e Conformidade como traços predominantes) e no
+                Eneagrama, onde destaco-me como um Tipo 3 (O Realizador) e Tipo
+                5 (O Investigador).
+              </p>
+              <p>
+                Na prática, isso significa que tenho um impulso natural para
+                alcançar eficiência, inovação e excelência técnica, ao mesmo
+                tempo em que busco continuamente conhecimento e compreensão mais
+                profundos em desenvolvimento web, SEO e gestão de tráfego.
               </p>
             </div>
           </div>
