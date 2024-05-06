@@ -175,8 +175,8 @@ footer a:hover {
 
   .timeline {
     width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
+    padding-left: 35px;
+    padding-right: 0;
   }
 
   .timeline::before {
