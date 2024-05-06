@@ -147,19 +147,44 @@ export default function About() {
             .
           </p>
         </section>
-        <section>
-          <h2>Experiência profissional</h2>
-          <p>Visão geral da minha carreira profissional</p>
-          <p>
-            In porttitor, felis at lobortis luctus, risus mi dictum quam, et
-            tempus odio nibh ac risus. Nam pharetra nisl ac dui rutrum, at
-            semper mi porta. Phasellus mauris dui, pharetra in convallis et,
-            eleifend vitae ex. Nulla luctus dui at dolor lacinia, id tincidunt
-            leo mollis. Quisque bibendum velit nec vehicula pellentesque.
-            Praesent lacinia vulputate congue. Ut malesuada a lectus at
-            volutpat.
+        <section className="my-5">
+          <div className="text-center mb-3">
+            <h2 className="gradient-paragraph fs-2 fw-bold">
+              Outras curiosidades sobre mim
+            </h2>
+          </div>
+          <p className="fs-5">
+            Além de ser um entusiasta da tecnologia e um solucionador de
+            problemas ávido, existem algumas facetas interessantes que compõem
+            quem sou tanto dentro quanto fora do ambiente de trabalho.
           </p>
+          <div className="row align-items-center my-4">
+            <div className="col-xl-4 col-md-5 mb-3 mb-md-0">
+              <Image
+                src="/partitura.jpg"
+                alt="Foto do Desenvolvedor Full Stack, Rafael Lopes usando camiseta cinza e camisa longa xadrez verde escura com preto."
+                width={400}
+                height={400}
+                layout="intrinsic"
+                className="img-fluid rounded"
+              />
+            </div>
+            <div className="col-md-7 fs-5">
+              <p>
+                <strong>Música e Criatividade</strong>: Minha dedicação de três
+                anos ao conservatório de música, focado no violão clássico, não
+                só alimentou minha alma artística mas também refinou minha
+                atenção aos detalhes e minha capacidade de concentração.
+              </p>
+              <p>
+                Habilidades essas que se traduzem diretamente na meticulosa
+                codificação e design de interfaces de usuário que você verá em
+                meu trabalho.
+              </p>
+            </div>
+          </div>
         </section>
+
         <section>
           <h2>Principais tecnologias</h2>
           <p>Ferramentas e tecnologias que domino e tenho conhecimento.</p>
