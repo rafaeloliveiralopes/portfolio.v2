@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./About.modules.css";
 import Link from "next/link";
 import Image from "next/image";
+import Technologies from "@/components/technologies/Technologies";
 
 export default function About() {
   return (
@@ -147,7 +148,7 @@ export default function About() {
             .
           </p>
         </section>
-        <section className="my-5">
+        <section className="my-5 pb-4">
           <div className="text-center mb-3">
             <h2 className="gradient-paragraph fs-2 fw-bold">
               Outras curiosidades sobre mim
@@ -237,22 +238,17 @@ export default function About() {
           </div>
         </section>
 
-        <section>
-          <h2>Principais tecnologias</h2>
-          <p>Ferramentas e tecnologias que domino e tenho conhecimento.</p>
-          <p>
-            Etiam quis augue tincidunt, hendrerit nunc id, faucibus felis.
-            Vivamus enim urna, ornare eu felis at, consectetur maximus metus.
-            Sed at nisl fermentum, aliquet lorem a, feugiat erat. Integer
-            fermentum eros sed neque viverra vulputate. Pellentesque egestas
-            accumsan risus, ac auctor lectus hendrerit sed. Phasellus mauris
-            turpis, sodales id eros quis, semper hendrerit orci. Phasellus
-            pulvinar ornare porttitor. Ut fermentum ante eu erat vehicula
-            tempus. Sed mattis, magna eu tincidunt facilisis, diam arcu posuere
-            dui, consectetur lacinia justo leo sit amet metus. Nam facilisis
-            ipsum ac est fermentum feugiat. Curabitur vel eros nisi.
-          </p>
+        <section className="my-5">
+          <div className="text-center mb-3">
+            <h2 className="gradient-paragraph fs-2 fw-bold">
+              Principais tecnologias e ferramentas
+            </h2>
+          </div>
+          <div className="text-center">
+            <Technologies />
+          </div>
         </section>
+
         <section>
           <h2>Interesses pessoais e Profissionais</h2>
           <p>Hobbies e interesses pessoais e profissionais.</p>
