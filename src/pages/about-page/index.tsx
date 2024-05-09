@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./About.modules.css";
 import Link from "next/link";
 import Image from "next/image";
+import Technologies from "@/components/technologies/Technologies";
 
 export default function About() {
   return (
@@ -147,7 +148,7 @@ export default function About() {
             .
           </p>
         </section>
-        <section className="my-5">
+        <section className="my-5 pb-4">
           <div className="text-center mb-3">
             <h2 className="gradient-paragraph fs-2 fw-bold">
               Outras curiosidades sobre mim
@@ -169,9 +170,9 @@ export default function About() {
                 className="img-fluid rounded"
               />
             </div>
-            <div className="col-md-7 fs-5">
+            <div className="col-md-8 fs-5">
               <p>
-                <strong>Música e Criatividade</strong>: Minha dedicação de três
+                <strong>Música e Criatividade:</strong> Minha dedicação de três
                 anos ao conservatório de música, focado no violão clássico, não
                 só alimentou minha alma artística mas também refinou minha
                 atenção aos detalhes e minha capacidade de concentração.
@@ -183,24 +184,71 @@ export default function About() {
               </p>
             </div>
           </div>
+          <div className="row flex-md-row-reverse align-items-center my-4">
+            <div className="col-xl-4 col-md-5 mb-3 mb-md-0">
+              <Image
+                src="/coracao-mosaico-rafa-ane-rodolpho.svg"
+                alt="Foto do Desenvolvedor Full Stack, Rafael Lopes usando camiseta cinza e camisa longa xadrez verde escura com preto."
+                width={400}
+                height={400}
+                layout="intrinsic"
+                className="img-fluid rounded"
+              />
+            </div>
+            <div className="col-md-8 fs-5">
+              <p>
+                <strong>Vida e Equilíbrio:</strong> Quando não estou programando
+                ou otimizando sites para os motores de busca, eu valorizo o
+                tempo de qualidade jogando videogames, lendo ou assistindo
+                seriados com minha esposa.
+              </p>
+              <p>
+                Acredito que um equilíbrio saudável entre trabalho e vida
+                pessoal é crucial para o pensamento inovador e a
+                sustentabilidade de um alto desempenho profissional.
+              </p>
+            </div>
+          </div>
+          <div className="row align-items-center my-4">
+            <div className="col-xl-4 col-md-5 mb-3 mb-md-0">
+              <Image
+                src="/ceu-estrelado.jpg"
+                alt="Foto do Desenvolvedor Full Stack, Rafael Lopes usando camiseta cinza e camisa longa xadrez verde escura com preto."
+                width={400}
+                height={400}
+                layout="intrinsic"
+                className="img-fluid rounded"
+              />
+            </div>
+            <div className="col-md-8 fs-5">
+              <p>
+                <strong>Crescimento e Autoconhecimento:</strong> Meu compromisso
+                com o autoconhecimento é refletido nos resultados do meu perfil
+                DISC (Dominância e Conformidade como traços predominantes) e no
+                Eneagrama, onde destaco-me como um Tipo 3 (O Realizador) e Tipo
+                5 (O Investigador).
+              </p>
+              <p>
+                Na prática, isso significa que tenho um impulso natural para
+                alcançar eficiência, inovação e excelência técnica, ao mesmo
+                tempo em que busco continuamente conhecimento e compreensão mais
+                profundos em desenvolvimento web, SEO e gestão de tráfego.
+              </p>
+            </div>
+          </div>
         </section>
 
-        <section>
-          <h2>Principais tecnologias</h2>
-          <p>Ferramentas e tecnologias que domino e tenho conhecimento.</p>
-          <p>
-            Etiam quis augue tincidunt, hendrerit nunc id, faucibus felis.
-            Vivamus enim urna, ornare eu felis at, consectetur maximus metus.
-            Sed at nisl fermentum, aliquet lorem a, feugiat erat. Integer
-            fermentum eros sed neque viverra vulputate. Pellentesque egestas
-            accumsan risus, ac auctor lectus hendrerit sed. Phasellus mauris
-            turpis, sodales id eros quis, semper hendrerit orci. Phasellus
-            pulvinar ornare porttitor. Ut fermentum ante eu erat vehicula
-            tempus. Sed mattis, magna eu tincidunt facilisis, diam arcu posuere
-            dui, consectetur lacinia justo leo sit amet metus. Nam facilisis
-            ipsum ac est fermentum feugiat. Curabitur vel eros nisi.
-          </p>
+        <section className="my-5">
+          <div className="text-center mb-3">
+            <h2 className="gradient-paragraph fs-2 fw-bold">
+              Principais tecnologias e ferramentas
+            </h2>
+          </div>
+          <div className="text-center">
+            <Technologies />
+          </div>
         </section>
+
         <section>
           <h2>Interesses pessoais e Profissionais</h2>
           <p>Hobbies e interesses pessoais e profissionais.</p>
