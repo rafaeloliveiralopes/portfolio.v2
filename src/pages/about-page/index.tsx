@@ -238,7 +238,7 @@ export default function About() {
           </div>
         </section>
 
-        <section className="my-5">
+        <section className="my-5 pb-4">
           <div className="text-center mb-3">
             <h2 className="gradient-paragraph fs-2 fw-bold">
               Principais tecnologias e ferramentas
@@ -249,41 +249,26 @@ export default function About() {
           </div>
         </section>
 
-        <section>
-          <h2>Interesses pessoais e Profissionais</h2>
-          <p>Hobbies e interesses pessoais e profissionais.</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            varius lorem lectus. Donec eget odio quis nulla rhoncus fermentum.
-            Nam vel massa volutpat, rhoncus nibh non, malesuada eros. Sed quis
-            finibus mi. Fusce dignissim enim in accumsan pretium. Quisque
-            tincidunt consectetur scelerisque. Nullam feugiat, massa sed pretium
-            gravida, tellus elit condimentum nulla, ac commodo nulla arcu nec
-            mi. Nulla ex tellus, laoreet non tellus sed, accumsan interdum
-            sapien. Mauris iaculis enim eu fringilla mattis. Curabitur ut
-            sodales justo, eget volutpat erat. Duis orci urna, dignissim at
-            libero a, auctor efficitur massa. Aenean odio dolor, efficitur sit
-            amet tempor ac, condimentum id lorem. Fusce pulvinar, magna vel
-            blandit aliquam, odio nulla fringilla nunc, a commodo purus nulla
-            vel mi. Maecenas sed condimentum libero. Cras quis metus id turpis
-            venenatis fermentum.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            varius lorem lectus. Donec eget odio quis nulla rhoncus fermentum.
-            Nam vel massa volutpat, rhoncus nibh non, malesuada eros. Sed quis
-            finibus mi. Fusce dignissim enim in accumsan pretium. Quisque
-            tincidunt consectetur scelerisque. Nullam feugiat, massa sed pretium
-            gravida, tellus elit condimentum nulla, ac commodo nulla arcu nec
-            mi. Nulla ex tellus, laoreet non tellus sed, accumsan interdum
-            sapien. Mauris iaculis enim eu fringilla mattis. Curabitur ut
-            sodales justo, eget volutpat erat. Duis orci urna, dignissim at
-            libero a, auctor efficitur massa. Aenean odio dolor, efficitur sit
-            amet tempor ac, condimentum id lorem. Fusce pulvinar, magna vel
-            blandit aliquam, odio nulla fringilla nunc, a commodo purus nulla
-            vel mi. Maecenas sed condimentum libero. Cras quis metus id turpis
-            venenatis fermentum.
-          </p>
+        <section className="my-5 pb-4">
+          <div className="text-center mb-3">
+            <h2 className="gradient-paragraph fs-2 fw-bold">
+              Vamos construir algo incrível juntos
+            </h2>
+          </div>
+          <div className="fs-5">
+            <p>
+              Se você está procurando soluções digitais que destacam e
+              impulsionam seu negócio, ou precisa de uma estratégia de SEO que
+              realmente converte, minha paixão e expertise são o que você
+              precisa para levar seu projeto ao próximo nível.
+            </p>
+            <p>
+              Conecte-se comigo para uma conversa sem compromissos sobre suas
+              metas digitais e descubra como podemos transformar suas ideias em
+              realidade. Preencha o formulário abaixo ou entre em contato comigo
+              pelas mídias sociais.
+            </p>
+          </div>
         </section>
         <Footer />
       </main>
