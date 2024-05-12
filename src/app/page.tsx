@@ -189,7 +189,7 @@ export default function Home() {
         <div className="my-4">
           <Image
             src="/formulario-de-contatos.svg"
-            alt="Foto do Desenvolvedor Full Stack, Rafael Lopes de perfil e olhando para cima . Ele está usando camiseta cinza clara, camisa xadrez com tons de verde escuro e preto e calça preta. O Desenvolvedor Rafael Lopes é um homem negro de cabelos e olhos pretos"
+            alt="Imagem SVG de um casal conversando ao celular."
             width={300}
             height={480}
             style={{ borderRadius: "39px" }}
