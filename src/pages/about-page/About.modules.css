@@ -19,9 +19,12 @@ body {
 body {
   padding-top: 86px;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 main {
@@ -115,7 +118,6 @@ footer a:hover {
 
 .custom-paragraph {
   font-size: 1.3rem;
-
 }
 
 .main-timeline {
