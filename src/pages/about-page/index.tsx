@@ -6,6 +6,7 @@ import "./About.modules.css";
 import Link from "next/link";
 import Image from "next/image";
 import Technologies from "@/components/technologies/Technologies";
+import ContactForm from "@/components/form/ContactForm";
 
 export default function About() {
   return (
@@ -148,7 +149,7 @@ export default function About() {
             .
           </p>
         </section>
-        <section className="my-5 pb-4">
+        <section className="my-5 pt-5 pb-4">
           <div className="text-center mb-3">
             <h2 className="gradient-paragraph fs-2 fw-bold">
               Outras curiosidades sobre mim
@@ -269,6 +270,23 @@ export default function About() {
               pelas mídias sociais.
             </p>
           </div>
+        </section>
+        <section className="container my-5 text-center">
+          <p className="gradient-paragraph fs-2 fw-bold my-3">
+            Venha dar vida a sua ideia!
+          </p>
+          <div className="my-4">
+            <Image
+              src="/formulario-de-contatos.svg"
+              alt="Imagem SVG de um casal conversando ao celular."
+              width={300}
+              height={480}
+              style={{ borderRadius: "39px" }}
+              layout="intrinsic"
+              className="shadow-sm"
+            />
+          </div>
+          <ContactForm />
         </section>
         <Footer />
       </main>

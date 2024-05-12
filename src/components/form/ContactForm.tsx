@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./Form.modules.css";
 
 function ContactForm() {
   return (
@@ -6,7 +7,7 @@ function ContactForm() {
       className="container fs-5 my-5 p-4 text-start rounded form-container"
       style={{ backgroundColor: "#609085" }}
     >
-      <form>
+      <form className={styles.form}>
         <div className="mb-3">
           <label htmlFor="fullName" className="form-label">
             Nome
