@@ -19,12 +19,9 @@ body {
 body {
   padding-top: 86px;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 main {
@@ -46,6 +43,19 @@ main {
 #navbar,
 ul {
   margin: 2em 6em 0 0;
+}
+
+h2 {
+  margin-bottom: 23px;
+}
+
+ul {
+  width: 100%;
+  margin: 0 auto;
+}
+
+li {
+  margin: 6px;
 }
 
 .navbar-brand {
