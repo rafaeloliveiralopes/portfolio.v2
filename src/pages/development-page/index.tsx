@@ -48,7 +48,7 @@ export default function DevelopmentPage() {
       <Navbar />
       <main className="container pt-4 fs-5">
         <ScriptBootstrap />
-        <section>
+        <section id="development-page">
           <Container>
             <Row className="mt-5">
               <Col md={12}>

@@ -100,12 +100,14 @@ export default function Home() {
                   layout="intrinsic"
                 />
               </div>
-              <button
-                className="btn-custom fs-5"
-                style={{ height: "50px", width: "189px" }}
-              >
-                Saiba mais
-              </button>
+              <Link href="/development-page" passHref>
+                <button
+                  className="btn-custom fs-5"
+                  style={{ height: "50px", width: "189px" }}
+                >
+                  Saiba mais
+                </button>
+              </Link>
             </div>
             {/* SEO */}
             <div className="col-md-4 mb-5">
