@@ -26,6 +26,7 @@ const developmentServices: Service = {
     "Landing pages",
     "E-commerce",
     "Sistemas web",
+    "APIs",
     "Manutenção de sites",
     "Análise e otimização de desempenho",
   ],
@@ -62,7 +63,7 @@ export default function DevelopmentPage() {
                   />
                 </Col>
                 <p>{service.description}</p>
-                <div className="mt-5">
+                <div className="services mt-5">
                   <h2>Desenvolvo</h2>
                 </div>
                 <ul>
@@ -72,7 +73,7 @@ export default function DevelopmentPage() {
                 </ul>
               </Col>
             </Row>
-            <Row className="mt-5">
+            <Row className="benefits mt-5">
               <Col>
                 <h2>Benefícios</h2>
                 <ul>
@@ -81,7 +82,7 @@ export default function DevelopmentPage() {
                   ))}
                 </ul>
               </Col>
-              <Col xs={12} md={3} className="mt-4 mt-md-0">
+              <Col xs={12} md={4}>
                 <Player
                   autoplay
                   loop
@@ -90,7 +91,7 @@ export default function DevelopmentPage() {
                 />
               </Col>
             </Row>
-            <Row className="mt-5 col-md-10">
+            <Row className="mt-2 col-md-10">
               <p>
                 Caso deseje dar vida à sua idéia, clique no botão abaixo para
                 solicitar um orçamento pelo WhatsApp ou preencha o formulário
@@ -103,8 +104,8 @@ export default function DevelopmentPage() {
           </Container>
         </section>
         {/* Contact Form */}
-        <section className="container mt-5 text-center">
-          <p className="gradient-paragraph fs-2 fw-bold mt-5">
+        <section className="container mt-4 text-center">
+          <p className="gradient-paragraph fs-2 fw-bold mt-4">
             Venha dar vida a sua ideia!
           </p>
           <div className="mt-5">
