@@ -53,7 +53,7 @@ export default function DevelopmentPage() {
             <Row className="mt-5">
               <Col md={12}>
                 <h1>{service.title}</h1>
-                <Col md={4}>
+                <Col md={4} className="mb-3">
                   <Player
                     autoplay
                     loop
@@ -81,7 +81,7 @@ export default function DevelopmentPage() {
                   ))}
                 </ul>
               </Col>
-              <Col md={3}>
+              <Col xs={12} md={3} className="mt-4 mt-md-0">
                 <Player
                   autoplay
                   loop
@@ -90,7 +90,7 @@ export default function DevelopmentPage() {
                 />
               </Col>
             </Row>
-            <Row className="mt-5">
+            <Row className="mt-5 col-md-10">
               <p>
                 Caso deseje dar vida à sua idéia, clique no botão abaixo para
                 solicitar um orçamento pelo WhatsApp ou preencha o formulário
