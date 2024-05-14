@@ -45,17 +45,21 @@ ul {
   margin: 2em 6em 0 0;
 }
 
-h2 {
+.services h2 {
+  margin-bottom: -16px;
+}
+
+.benefits h2 {
   margin-bottom: 23px;
 }
 
-ul {
+.benefits ul {
   width: 100%;
   margin: 0 auto;
 }
 
-li {
-  margin: 6px;
+.benefits li {
+  margin: 0 0 16px 0;
 }
 
 .navbar-brand {
