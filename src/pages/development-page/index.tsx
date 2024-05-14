@@ -53,7 +53,7 @@ export default function DevelopmentPage() {
           <Container>
             <Row className="mt-5">
               <Col md={12}>
-                <h1>{service.title}</h1>
+                <h1 className=" gradient-paragraph">{service.title}</h1>
                 <Col md={4} className="mb-3">
                   <Player
                     autoplay
