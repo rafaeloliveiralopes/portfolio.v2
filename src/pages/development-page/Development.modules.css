@@ -1,11 +1,3 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -18,12 +10,14 @@ html {
 
 html,
 body {
-  max-width: 100vw;
+  padding-top: 0;
   overflow-x: hidden;
   background: #11191f;
+  color: #ffff;
 }
 
 body {
+  padding-top: 86px;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -34,19 +28,18 @@ body {
 }
 
 main {
-  margin-top: 120px;
+  margin-top: 0px;
 }
 
 .navbar {
   display: flex;
   position: absolute;
-  flex-direction: column;
+  background: #11191f;
+  top: 0;
   width: 100%;
   margin: 0;
-  right: 0;
-  background: #11191f;
   padding: 0;
-  transition: All 0.5s ease-in;
+  transition: all 0.5s ease-in;
   z-index: 1000;
 }
 
@@ -67,10 +60,6 @@ ul {
   color: lightgray;
 }
 
-.greetings {
-  margin-bottom: 2.3em;
-}
-
 .btn-custom {
   border: none;
   border-radius: 14px;
@@ -81,6 +70,7 @@ ul {
   height: 43px;
   transition: background-color 0.3s;
   color: #ffff;
+  font-size: 1.1rem;
 }
 
 .btn-custom:hover {
@@ -101,10 +91,6 @@ a {
   text-decoration: none;
 }
 
-.letter-spacing {
-  letter-spacing: 0.05em;
-}
-
 footer .row {
   display: flex;
   align-items: center;
@@ -119,27 +105,28 @@ footer a:hover {
   color: #62dbe9;
 }
 
-/* Custom CSS for larger font size on md devices */
-@media (min-width: 968px) {
-  .fs-md-custom p {
-    font-size: 1.3em;
-  }
+.copyright {
+  font-size: 1.1rem;
 }
 
-@media (min-width: 968px) {
-  .medium-layout-h1 h1 {
-    font-size: 2.9em;
-  }
+.footer-socials {
+  font-size: 1rem;
 }
 
-@media (min-width: 1380px) {
-  .container-home {
-    height: 100vh;
-  }
+.custom-paragraph {
+  font-size: 1.3rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.card {
+  cursor: pointer;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.3s ease;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

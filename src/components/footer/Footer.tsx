@@ -22,11 +22,13 @@ export default function Footer() {
         </div>
         <div className="row">
           <div className="col-12 text-center my-2 mt-5">
-            <p className="mb-0">&#169;2024 Desenvolvido por rafaellopes.dev</p>
+            <p className="copyright mb-0">
+              &#169;2024 Desenvolvido por rafaellopes.dev
+            </p>
           </div>
         </div>
         <div className="row">
-          <div className="col-12 text-center">
+          <div className="footer-socials col-12 text-center">
             <p>
               <a href="#" className="text-decoration-none me-2">
                 GitHub
