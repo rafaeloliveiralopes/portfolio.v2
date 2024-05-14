@@ -65,12 +65,12 @@ export default function DevelopmentPage() {
                 <p>{service.description}</p>
                 <div className="services mt-5">
                   <h2>Desenvolvo</h2>
+                  <ul>
+                    {service.myServices.map((myService, index) => (
+                      <li key={index}>{myService}</li>
+                    ))}
+                  </ul>
                 </div>
-                <ul>
-                  {service.myServices.map((myService, index) => (
-                    <li key={index}>{myService}</li>
-                  ))}
-                </ul>
               </Col>
             </Row>
             <Row className="benefits mt-5">
