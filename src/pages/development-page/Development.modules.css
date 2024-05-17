@@ -134,17 +134,3 @@ footer a:hover {
 .custom-paragraph {
   font-size: 1.3rem;
 }
-
-.card {
-  cursor: pointer;
-  margin: 20px;
-  padding: 20px;
-  width: 300px;
-  transition: all 0.3s ease;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
