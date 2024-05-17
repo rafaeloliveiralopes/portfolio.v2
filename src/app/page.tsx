@@ -121,12 +121,14 @@ export default function Home() {
                   layout="intrinsic"
                 />
               </div>
-              <button
-                className="btn-custom fs-5"
-                style={{ height: "50px", width: "189px" }}
-              >
-                Saiba mais
-              </button>
+              <Link href="/seo-page" passHref>
+                <button
+                  className="btn-custom fs-5"
+                  style={{ height: "50px", width: "189px" }}
+                >
+                  Saiba mais
+                </button>
+              </Link>
             </div>
             {/* Gestão de Tráfego */}
             <div className="col-md-4 mb-5">

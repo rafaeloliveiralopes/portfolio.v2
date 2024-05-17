@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  padding-top: 0;
+  overflow-x: hidden;
+  background: #11191f;
+  color: #ffff;
+}
+
+body {
+  padding-top: 86px;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+main {
+  margin-top: 0px;
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  background: #11191f;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s ease-in;
+  z-index: 1000;
+}
+
+#navbar,
+ul {
+  margin: 2em 6em 0 0;
+}
+
+.services h2 {
+  margin-bottom: -16px;
+}
+
+.benefits h2 {
+  margin-bottom: 23px;
+}
+
+.services ul {
+  width: 100%;
+}
+
+.benefits ul {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.benefits li {
+  margin: 0 0 16px 0;
+}
+
+.navbar-brand {
+  margin: 3em 0 3em 1em !important;
+}
+
+.menu-label {
+  margin-left: 4em;
+}
+
+.navbar-toggler {
+  color: lightgray;
+}
+
+.btn-custom {
+  border: none;
+  border-radius: 14px;
+  background-image: linear-gradient(to right, #2a6dac, #112d46);
+  cursor: pointer;
+  display: inline-block;
+  width: 206px;
+  height: 43px;
+  transition: background-color 0.3s;
+  color: #ffff;
+  font-size: 1.1rem;
+}
+
+.btn-custom:hover {
+  background-image: linear-gradient(to right, #007bff, #004f9f);
+  color: #ffff;
+}
+
+.gradient-paragraph {
+  background: linear-gradient(to left, #00ccd9, #e9eaea);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  color: #b4b2b2f1;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #62dbe9;
+}
+
+.copyright {
+  font-size: 1.1rem;
+}
+
+.footer-socials {
+  font-size: 1rem;
+}
+
+.custom-paragraph {
+  font-size: 1.3rem;
+}
+
+.card {
+  cursor: pointer;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.3s ease;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
