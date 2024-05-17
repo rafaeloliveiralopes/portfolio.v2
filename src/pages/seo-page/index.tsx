@@ -64,14 +64,14 @@ export default function SeoPage() {
                   />
                 </Col>
                 <p>{service.description}</p>
-                <div className="mt-5">
+                <div className="services mt-5">
                   <h2>Serviços Oferecidos</h2>
+                  <ul>
+                    {service.myServices.map((myService, index) => (
+                      <li key={index}>{myService}</li>
+                    ))}
+                  </ul>
                 </div>
-                <ul>
-                  {service.myServices.map((myService, index) => (
-                    <li key={index}>{myService}</li>
-                  ))}
-                </ul>
               </Col>
             </Row>
             <Row className="mt-5">
