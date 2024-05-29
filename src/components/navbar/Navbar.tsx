@@ -35,17 +35,17 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#about">
+              <a className="nav-link text-white" href="/#about">
                 Sobre mim
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#services">
+              <a className="nav-link text-white" href="/#services">
                 Serviços
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#portfolio">
+              <a className="nav-link text-white" href="/#portfolio">
                 Portfolio
               </a>
             </li>
