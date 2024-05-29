@@ -35,24 +35,24 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#about">
+              <a className="nav-link text-white" href="/#about">
                 Sobre mim
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#services">
+              <a className="nav-link text-white" href="/#services">
                 Serviços
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#portfolio">
+              <a className="nav-link text-white" href="/#portfolio">
                 Portfolio
               </a>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link text-white"
-                href="https://wa.me/5562998154682"
+                href="https://wa.me/5562992136842"
                 target="_blank"
               >
                 Contato
