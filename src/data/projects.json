@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Project 1",
+    "text": "Descrição do projeto 1. Detalhes e informações relevantes.",
+    "imgSrc": "/adv-site-mockup.png"
+  },
+  {
+    "title": "Project 2",
+    "text": "Descrição do projeto 2. Detalhes e informações relevantes.",
+    "imgSrc": "/path-to-image-2.png"
+  },
+  {
+    "title": "Project 3",
+    "text": "Descrição do projeto 3. Detalhes e informações relevantes.",
+    "imgSrc": "/path-to-image-3.png"
+  },
+  {
+    "title": "Project 4",
+    "text": "Descrição do projeto 4. Detalhes e informações relevantes.",
+    "imgSrc": "/path-to-image-4.png"
+  }
+]

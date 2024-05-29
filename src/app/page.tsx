@@ -165,7 +165,7 @@ export default function Home() {
             <div key={index} className="col">
               <div className="card h-100">
                 <Image
-                  src="/path/to/mockup-image.jpg"
+                  src="/adv-site-mockup.png"
                   alt={`Project ${index + 1}`}
                   width={300}
                   height={150}
@@ -178,9 +178,6 @@ export default function Home() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Pellentesque vitae dapibus ex.
                   </p>
-                </div>
-                <div className="card-footer">
-                  <small className="text-muted">Last updated 3 mins ago</small>
                 </div>
               </div>
             </div>
