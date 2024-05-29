@@ -52,7 +52,7 @@ export default function Navbar() {
             <li className="nav-item">
               <a
                 className="nav-link text-white"
-                href="https://wa.me/5562998154682"
+                href="https://wa.me/5562992136842"
                 target="_blank"
               >
                 Contato
