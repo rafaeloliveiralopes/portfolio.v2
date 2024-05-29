@@ -25,12 +25,9 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 main {
@@ -117,6 +114,16 @@ footer a {
 
 footer a:hover {
   color: #62dbe9;
+}
+
+#scrollToTop {
+  cursor: pointer;
+  margin-top: 1em;
+  transition: transform 0.3s;
+}
+
+#scrollToTop:hover {
+  transform: translateY(-5px);
 }
 
 /* Custom CSS for larger font size on md devices */
