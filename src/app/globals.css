@@ -102,6 +102,78 @@ a {
   letter-spacing: 0.05em;
 }
 
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  transition: all 0.5s ease;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  padding: 20px;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-body {
+  transform: translateY(0);
+}
+
+.card-body h5,
+.card-body p,
+.card-body a {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.card:hover .card-body h5,
+.card:hover .card-body p,
+.card:hover .card-body a {
+  opacity: 1;
+}
+
+.card-body h6 {
+  background-color: #7f8e8f;
+  border: solid 1px lightgrey;
+  border-radius: 4px;
+}
+
+.card-body a.btn-custom {
+  margin-top: 10px;
+}
+
+.tech-tag {
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  margin: 0.2em;
+  border: 1px solid #b4b2b2;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #e9eaea;
+  font-size: 0.875em;
+  transition:
+    background 0.3s,
+    color 0.3s;
+}
+
+.tech-tag:hover {
+  background: #007bff;
+  color: #ffffff;
+}
+
 footer .row {
   display: flex;
   align-items: center;
