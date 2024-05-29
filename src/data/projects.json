@@ -1,8 +1,11 @@
 [
   {
-    "title": "Project 1",
-    "text": "Descrição do projeto 1. Detalhes e informações relevantes.",
-    "imgSrc": "/adv-site-mockup.png"
+    "title": "rafaellopesadvocacia",
+    "text": "Projeto pessoal para compor portfólio e testar técnicas de SEO e performance.",
+    "subtitle": "Tecnologias:",
+    "stack": "HTML5 | CSS3 | Javascript",
+    "imgSrc": "/adv-site-mockup.png",
+    "url": "https://www.rafaellopesadvocacia.com.br/"
   },
   {
     "title": "Project 2",

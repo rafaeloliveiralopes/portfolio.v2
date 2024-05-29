@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import ContactForm from "../components/form/ContactForm";
 import Link from "next/link";
-
+import projects from "@/data/projects.json";
 export default function Home() {
   return (
     <main>
@@ -161,23 +161,40 @@ export default function Home() {
       >
         <h2 className="fs-1 text-center mb-5">Portfolio</h2>
         <div className="row row-cols-1 row-cols-md-2 row-cols-sm-1 g-4">
-          {Array.from({ length: 4 }).map((_, index) => (
+          {projects.map((project, index) => (
             <div key={index} className="col">
               <div className="card h-100">
                 <Image
-                  src="/adv-site-mockup.png"
-                  alt={`Project ${index + 1}`}
+                  src={project.imgSrc}
+                  alt={project.title}
                   width={300}
                   height={150}
                   layout="responsive"
                   className="card-img-top"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Project Title {index + 1}</h5>
-                  <p className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque vitae dapibus ex.
-                  </p>
+                  <h5 className="card-title fs-4 text-center">
+                    {project.title}
+                  </h5>
+                  <p className="card-text">{project.text}</p>
+                  <div className="tech-stack pb-3">
+                    <p className="fs-5">{project.subtitle}</p>
+                    {(project.stack ?? "").split(" | ").map((tech, index) => (
+                      <span key={index} className="tech-tag">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="text-center">
+                    <a
+                      href={project.url}
+                      className="btn btn-custom"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Visitar Site
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
