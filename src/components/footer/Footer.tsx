@@ -3,21 +3,23 @@
 import React, { useEffect } from "react";
 
 export default function Footer() {
+  const handleScrollToTopClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   useEffect(() => {
     const scrollToTopButton = document.getElementById("scrollToTop");
     if (scrollToTopButton) {
-      scrollToTopButton.addEventListener("click", () => {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
-      });
+      // Add event listener
+      scrollToTopButton.addEventListener("click", handleScrollToTopClick);
+
+      // Return a cleanup function to remove the event listener
+      return () => {
+        scrollToTopButton.removeEventListener("click", handleScrollToTopClick);
+      };
     }
-    return () => {
-      if (scrollToTopButton) {
-        scrollToTopButton.removeEventListener("click", null);
-      }
-    };
   }, []);
 
   return (
