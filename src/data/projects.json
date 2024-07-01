@@ -8,9 +8,12 @@
     "url": "https://www.rafaellopesadvocacia.com.br/"
   },
   {
-    "title": "Project 2",
-    "text": "Descrição do projeto 2. Detalhes e informações relevantes.",
-    "imgSrc": "/path-to-image-2.png"
+    "title": "Studio de Beleza",
+    "text": "Projeto pessoal para studio de beleza",
+    "subtitle": "Tecnologias:",
+    "stack": "ReactJS | BootStrap",
+    "imgSrc": "/mockup-studio-de-beleza.png",
+    "url": "https://studiokarebeleza.vercel.app/"
   },
   {
     "title": "Project 3",
