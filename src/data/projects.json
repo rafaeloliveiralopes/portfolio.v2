@@ -16,9 +16,12 @@
     "url": "https://studiokarebeleza.vercel.app/"
   },
   {
-    "title": "Project 3",
-    "text": "Descrição do projeto 3. Detalhes e informações relevantes.",
-    "imgSrc": "/path-to-image-3.png"
+    "title": "Studio de Beleza",
+    "text": "Projeto pessoal para studio de beleza",
+    "subtitle": "Tecnologias:",
+    "stack": "WordPress | Elementor",
+    "imgSrc": "/mockup-landing-page-adv.png",
+    "url": "https://landingpageadv.site/home/"
   },
   {
     "title": "Project 4",
