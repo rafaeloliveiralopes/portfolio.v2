@@ -16,7 +16,7 @@
     "url": "https://studiokarebeleza.vercel.app/"
   },
   {
-    "title": "Studio de Beleza",
+    "title": "Landing page Advocacia",
     "text": "Projeto pessoal de uma landing page para escritório de advocacia que atua com SPVAT/DPVAT",
     "subtitle": "Tecnologias:",
     "stack": "WordPress | Elementor",
@@ -26,6 +26,9 @@
   {
     "title": "Project 4",
     "text": "Em breve",
-    "imgSrc": "/path-to-image-4.png"
+    "subtitle": "Tecnologias:",
+    "stack": "A definir",
+    "imgSrc": "/Beige Minimalist Stay Tuned Coming Soon Instagram Post.png",
+    "url": "A definir"
   }
 ]
