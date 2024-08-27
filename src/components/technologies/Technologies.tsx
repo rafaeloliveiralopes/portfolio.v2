@@ -5,7 +5,7 @@ const Technologies = () => {
   return (
     <section className={`container my-5 ${styles.technologies}`}>
       <div className="row text-center">
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/icons8-html5.svg"
             alt="HTML5"
@@ -16,7 +16,7 @@ const Technologies = () => {
           <h3>HTML5</h3>
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/icons8-css3.svg"
             alt="CSS3"
@@ -27,7 +27,7 @@ const Technologies = () => {
           <h3>CSS3</h3>
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/icons8-javascript.svg"
             alt="Javascript"
@@ -38,7 +38,7 @@ const Technologies = () => {
           <h3>Javascript</h3>
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/icons8-texto-typescript.svg"
             alt="Typescript"
@@ -49,7 +49,7 @@ const Technologies = () => {
           <h3>Typescript</h3>
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/react-logo-svgrepo-com.svg"
             alt="React"
@@ -60,7 +60,7 @@ const Technologies = () => {
           <h3>React</h3>
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/icons8-nextjs.svg"
             alt="Next"
@@ -71,7 +71,7 @@ const Technologies = () => {
           <h3>Next</h3>
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/styled-components.png"
             alt="Styled Components"
@@ -82,7 +82,7 @@ const Technologies = () => {
           <h3>Styled Components</h3>
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/icons8-sass.svg"
             alt="Sass"
@@ -92,7 +92,7 @@ const Technologies = () => {
           />
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/icons8-bootstrap.svg"
             alt="Bootstrap"
@@ -103,7 +103,7 @@ const Technologies = () => {
           <h3>Bootstrap</h3>
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/nodejs-svgrepo-com.svg"
             alt="NodeJS"
@@ -113,7 +113,7 @@ const Technologies = () => {
           />
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/mysql-logo-svgrepo-com.svg"
             alt="MySQL"
@@ -123,7 +123,7 @@ const Technologies = () => {
           />
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/mongodb-logo-svgrepo-com.svg"
             alt="MongoDB"
@@ -134,7 +134,7 @@ const Technologies = () => {
           <h3>MongoDB</h3>
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/jest.svg"
             alt="Jest"
@@ -145,7 +145,7 @@ const Technologies = () => {
           <h3>Jest</h3>
         </div>
 
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/postman-svgrepo-com.svg"
             alt="Postman"
@@ -155,7 +155,7 @@ const Technologies = () => {
           />
           <h3>Postman</h3>
         </div>
-        <div className="col-md-1 py-4 col-6">
+        <div className="col-md-2 py-4 col-6">
           <Image
             src="/git-svgrepo-com.svg"
             alt="Git"

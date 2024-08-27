@@ -239,7 +239,7 @@ export default function About() {
           </div>
         </section>
 
-        <section className="my-5 pb-4">
+        <section className="my-5 pt-5 pb-4">
           <div className="text-center mb-3">
             <h2 className="gradient-paragraph fs-2 fw-bold">
               Principais tecnologias e ferramentas
