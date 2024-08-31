@@ -83,6 +83,18 @@ ul {
   color: #ffff;
 }
 
+.home-btn {
+  border: none;
+  border-radius: 14px;
+  background-image: linear-gradient(to right, #2a6dac, #112d46);
+  cursor: pointer;
+  display: inline-block;
+  width: max-content;
+  height: 56px;
+  transition: background-color 0.3s;
+  color: #ffff;
+}
+
 .btn-custom:hover {
   background-image: linear-gradient(to right, #007bff, #004f9f);
   color: #ffff;

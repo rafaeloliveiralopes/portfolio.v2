@@ -3,6 +3,7 @@ import Image from "next/image";
 import ContactForm from "../components/form/ContactForm";
 import Link from "next/link";
 import projects from "@/data/projects.json";
+
 export default function Home() {
   return (
     <main>
@@ -21,7 +22,7 @@ export default function Home() {
               </p>
             </div>
             <a href="#services" className="btn-link-custom">
-              <button className="btn btn-custom mb-4">
+              <button className="btn home-btn mb-4">
                 Conheça meus serviços
               </button>
             </a>
