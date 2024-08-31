@@ -77,7 +77,7 @@ export default function Home() {
               contribuir para o seu negócio?
             </p>
             <Link href="/about-page">
-              <p className="text-primary-empahsis fw-bold text-decoration-underline letter-spacing">
+              <p className="text-primary-empahsis fw-bold text-decoration-underline letter-spacing text-start">
                 Leia mais...
               </p>
             </Link>
