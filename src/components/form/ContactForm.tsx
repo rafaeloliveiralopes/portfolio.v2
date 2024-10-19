@@ -50,7 +50,7 @@ function ContactForm() {
         </div>
         <div className="mb-3">
           <label htmlFor="phone" className="form-label">Telefone</label>
-          <input type="tel" className="form-control" id="phone" name="phone" pattern="^\d{2}\s\d{4}-\d{4}$" placeholder="(00) 9000-1111" value={formData.phone} onChange={handleChange} required />
+          <input type="tel" className="form-control" id="phone" name="phone" pattern="^\d{2}\s\d{4}-\d{4}$" placeholder="99 9000-1111" value={formData.phone} onChange={handleChange} required />
         </div>
         <div className="mb-3">
           <label htmlFor="email" className="form-label">Email</label>
