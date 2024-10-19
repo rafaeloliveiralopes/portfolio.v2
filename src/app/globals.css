@@ -42,7 +42,6 @@ main {
   position: absolute;
   flex-direction: column;
   width: 100%;
-  height: 100%;
   margin: 0;
   right: 0;
   background: #11191f;
