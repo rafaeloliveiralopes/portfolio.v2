@@ -29,27 +29,27 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+            <li className="nav-item mx-3">
               <a className="nav-link text-white" aria-current="page" href="/">
                 Início
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-3">
               <a className="nav-link text-white" href="/#about">
                 Sobre mim
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-3">
               <a className="nav-link text-white" href="/#services">
                 Serviços
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-3">
               <a className="nav-link text-white" href="/#portfolio">
                 Portfolio
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-3">
               <a
                 className="nav-link text-white"
                 href="https://wa.me/5562992136842"
