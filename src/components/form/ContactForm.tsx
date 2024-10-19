@@ -29,7 +29,7 @@ function ContactForm() {
     });
 
     if (response.ok) {
-      toast.success("Form submitted successfully!");
+      toast.success("Obrigado, logo entrarei em contato!");
       // Limpa o formulário
       setFormData({
         fullName: '',
