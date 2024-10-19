@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import "./Form.modules.css";
+import { ToastContainer, toast } from "react-toastify";
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -10,8 +11,6 @@ function ContactForm() {
     subject: '',
     message: ''
   });
-  
-  const [successMessage, setSuccessMessage] = useState('');
   
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -29,11 +28,8 @@ function ContactForm() {
       body: JSON.stringify(formData),
     });
 
-    const data = await response.json();
-    alert(data.message);
-
     if (response.ok) {
-      setSuccessMessage('Email enviado com sucesso!');
+      toast.success("Form submitted successfully!");
       // Limpa o formulário
       setFormData({
         fullName: '',
@@ -77,6 +73,18 @@ function ContactForm() {
         </div>
         <button type="submit" className="btn-custom" style={{ height: "50px" }}>Enviar</button>
       </form>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </div>
   );
 }
