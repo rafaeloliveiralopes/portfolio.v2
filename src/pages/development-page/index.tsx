@@ -98,7 +98,7 @@ export default function DevelopmentPage() {
                 que entrarei em contato!
               </p>
               <Col>
-                <Button className="btn-custom">Solicitar Orçamento</Button>
+                <Button className="btn-custom"><a href="https://wa.me/556292136842" target="_blank" className="text-white">Solicitar Orçamento</a></Button>
               </Col>
             </Row>
           </Container>

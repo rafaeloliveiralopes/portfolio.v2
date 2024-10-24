@@ -17,29 +17,30 @@ interface Service {
   benefits: string[];
 }
 
-const trafficManagementServices: Service = {
-  title: "Serviços de Gestão de Tráfego",
+const chatbotServices: Service = {
+  title: "Serviços de Criação e Implementação de Chatbots com IA",
   description:
-    "Garanta que seu público-alvo encontre seus serviços ou produtos com facilidade. Ofereço serviços completos de gestão de tráfego para aumentar a visibilidade do seu site e atrair visitantes qualificados.",
+    "Transforme a experiência de atendimento ao cliente com chatbots inteligentes. Ofereço serviços completos de criação e implementação de chatbots para otimizar o suporte ao cliente e aumentar a eficiência do seu negócio.",
   myServices: [
-    "Planejamento de Campanhas",
-    "Análise de Tráfego",
-    "Otimização de Anúncios",
-    "Remarketing",
-    "Relatórios de Desempenho",
+    "Desenvolvimento de Chatbots Personalizados",
+    "Integração com Plataformas",
+    "Treinamento de IA",
+    "Análise de Desempenho",
+    "Aprimoramento Contínuo",
   ],
-  image: "./traffic-management-expert.svg",
+  image: "./chatbot-expert.svg",
   benefits: [
-    "Planejamento Personalizado: Criação de campanhas sob medida para atingir seu público-alvo.",
-    "Análise Profunda: Monitoramento constante do tráfego para ajustar e otimizar estratégias.",
-    "Otimização de Anúncios: Melhoria contínua de anúncios para maximizar ROI.",
-    "Remarketing Eficaz: Estratégias de remarketing para reconquistar visitantes e aumentar conversões.",
-    "Relatórios Detalhados: Relatórios completos para acompanhar o desempenho e ajustar ações.",
+    "Atendimento Personalizado: Criação de chatbots que entendem e respondem às necessidades específicas dos seus clientes.",
+    "Integração Completa: Implementação de chatbots integrados às suas plataformas existentes.",
+    "Inteligência Aprimorada: Treinamento de IA para fornecer respostas precisas e relevantes.",
+    "Análise de Desempenho: Monitoramento contínuo para otimizar a performance do chatbot.",
+    "Aprimoramento Contínuo: Ajustes e melhorias constantes para garantir a melhor experiência ao usuário.",
   ],
 };
 
-export default function TrafficManagementPage() {
-  const service = trafficManagementServices;
+
+export default function chatbotServicesPage() {
+  const service = chatbotServices;
 
   return (
     <>
@@ -56,7 +57,7 @@ export default function TrafficManagementPage() {
                   <Player
                     autoplay
                     loop
-                    src="https://lottie.host/a7548fa9-aadd-435a-a08f-7f6589649b4a/J4azZihSZB.json"
+                    src="https://lottie.host/e9e78951-3828-4bb2-b45f-bdb6bce0e066/FSTg1cZrj0.json"
                     style={{ height: "300px", width: "300px" }}
                   />
                 </Col>
@@ -84,7 +85,7 @@ export default function TrafficManagementPage() {
                 <Player
                   autoplay
                   loop
-                  src="https://lottie.host/74df6118-0477-47f6-b35a-452be6c0c7d9/RoJM0VBXC2.json"
+                  src="https://lottie.host/35fa5e4f-56d0-4be5-baab-d176bf902572/8NjXQsSMV6.json"
                   style={{ height: "250px", width: "250px" }}
                 />
               </Col>
@@ -96,7 +97,7 @@ export default function TrafficManagementPage() {
                 formulário que entrarei em contato!
               </p>
               <Col>
-                <Button className="btn-custom">Solicitar Orçamento</Button>
+                <Button className="btn-custom"><a href="https://wa.me/556292136842" target="_blank" className="text-white">Solicitar Orçamento</a></Button>
               </Col>
             </Row>
           </Container>
