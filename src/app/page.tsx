@@ -143,7 +143,7 @@ export default function Home() {
                   layout="intrinsic"
                 />
               </div>
-              <Link href="/traffic-management-page" passHref>
+              <Link href="/chatbot-services-page" passHref>
                 <button
                   className="btn-custom fs-5 my-3"
                   style={{ height: "50px", width: "189px" }}

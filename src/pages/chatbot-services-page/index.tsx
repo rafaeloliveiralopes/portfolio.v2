@@ -2,7 +2,7 @@ import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 import ScriptBootstrap from "@/components/ScriptBootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./TrafficManagement.modules.css";
+import "./ChatbotServices.modules.css";
 import Image from "next/image";
 import ContactForm from "@/components/form/ContactForm";
 import React from "react";
@@ -47,7 +47,7 @@ export default function chatbotServicesPage() {
       <Navbar />
       <main className="container pt-4 fs-5">
         <ScriptBootstrap />
-        <section id="traffic-management-page">
+        <section id="/chatbot-services-page">
           <Container>
             <Row className="mt-5">
               <Col md={12}>
