@@ -181,30 +181,30 @@ a {
   color: #e9eaea;
   font-size: 0.875em;
   transition:
-  background 0.3s,
+    background 0.3s,
     color 0.3s;
-  }
-  
-  .tech-tag:hover {
-    background: #007bff;
-    color: #ffffff;
-  }
-  
-  footer .row {
-    display: flex;
-    align-items: center;
-  }
-  
-  footer a {
-    color: #b4b2b2f1;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    color: #62dbe9;
-  }
-  
-  #scrollToTop {
+}
+
+.tech-tag:hover {
+  background: #007bff;
+  color: #ffffff;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  color: #b4b2b2f1;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #62dbe9;
+}
+
+#scrollToTop {
   cursor: pointer;
   margin-top: 1em;
   transition: transform 0.3s;

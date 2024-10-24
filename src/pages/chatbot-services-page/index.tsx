@@ -38,7 +38,6 @@ const chatbotServices: Service = {
   ],
 };
 
-
 export default function chatbotServicesPage() {
   const service = chatbotServices;
 
@@ -91,15 +90,24 @@ export default function chatbotServicesPage() {
               </Col>
             </Row>
             <Row className="mt-5">
-              <p>
-                Caso deseje melhorar a visibilidade do seu site, clique no botão
-                abaixo para solicitar um orçamento pelo WhatsApp ou preencha o
-                formulário que entrarei em contato!
-              </p>
-              <Col>
-                <Button className="btn-custom"><a href="https://wa.me/556292136842" target="_blank" className="text-white">Solicitar Orçamento</a></Button>
-              </Col>
-            </Row>
+  <p>
+    Se você deseja automatizar o atendimento ao cliente e melhorar a
+    experiência dos seus usuários, clique no botão abaixo para solicitar
+    uma demonstração ou preencha o formulário, e entrarei em contato!
+  </p>
+  <Col>
+    <Button className="btn-custom">
+      <a
+        href="https://wa.me/556292136842?text=Olá,%20gostaria%20de%20agendar%20uma%20demonstração%20sobre%20a%20implementação%20de%20um%20chatbot%20para%20meu%20negócio."
+        target="_blank"
+        className="text-white"
+      >
+        Fazer Agendamento
+      </a>
+    </Button>
+  </Col>
+</Row>
+
           </Container>
         </section>
         {/* Contact Form */}

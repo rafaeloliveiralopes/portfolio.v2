@@ -131,9 +131,9 @@ export default function Home() {
                 </button>
               </Link>
             </div>
-            {/* Gestão de Tráfego */}
+            {/* Chat bots */}
             <div className="col-md-4 mb-5">
-              <p className="fs-4 mb-4">Gestão de Tráfego</p>
+              <p className="fs-4 mb-4">Chat bots</p>
               <div className="my-2 py-4">
                 <Image
                   src="/gestao-de-trafego.svg"
