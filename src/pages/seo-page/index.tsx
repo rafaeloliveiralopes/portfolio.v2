@@ -101,7 +101,7 @@ export default function SeoPage() {
               <Col>
                 <Button className="btn-custom">
                   <a
-                    href="https://wa.me/556292136842"
+                    href="https://wa.me/556292136842?text=Ol%C3%A1%2C%20estou%20interessado%20em%20solicitar%20um%20or%C3%A7amento%20para%20os%20servi%C3%A7os%20de%20SEO.%20Poderia%20me%20dar%20mais%20informa%C3%A7%C3%B5es%3F"
                     target="_blank"
                     className="text-white"
                   >
