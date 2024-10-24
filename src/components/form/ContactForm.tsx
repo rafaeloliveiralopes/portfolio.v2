@@ -110,7 +110,7 @@ function ContactForm() {
             <option value="">Escolha uma opção...</option>
             <option value="Desenvolvimento Web">Desenvolvimento Web</option>
             <option value="SEO">SEO</option>
-            <option value="Gestão de Tráfego">Criação e Imprementação de chatbot</option>
+            <option value="Criação e Implementação de Chatbot">Criação e Imprementação de chatbot</option>
             <option value="Parcerias">Parcerias</option>
             <option value="Outros">Outros</option>
           </select>
