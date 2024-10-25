@@ -27,21 +27,10 @@ This project aims to create a landing page for showcasing web development servic
 
 - **Next.js**: Chosen for its server-side rendering capabilities, which enhance SEO and improve performance. Next.js also offers easy routing, which is beneficial for a single-page application like a landing page.
 
-### Backend
-
-- **Node.js with Express**: A popular choice for building RESTful APIs that can handle form submission data. Node.js offers scalability and compatibility with various databases and frontend technologies.
-
-### Database
-
-- **MongoDB**: A NoSQL database that provides flexibility in storing form data from potential clients. It's chosen for its scalability, performance, and ease of integration with Node.js.
-
 ### Other Tools and Libraries
 
-- **Mongoose**: Facilitates data modeling and simplifies interactions with MongoDB.
 - **Nodemailer**: Used for sending emails from the contact form, enabling immediate communication with potential clients.
-- **Formik** or **React Hook Form**: These libraries are considered for managing form state and validation on the frontend, offering simplicity and performance.
 - **Vercel**: For hosting the Next.js application, providing easy deployment and high performance.
-- **MongoDB Atlas**: A cloud database service that hosts MongoDB, offering reliability and easy scaling.
 - **Husky**: For managing Git hooks.
 - **lint-staged**: For running linters on staged files in Git.
 
