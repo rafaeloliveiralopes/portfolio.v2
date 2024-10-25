@@ -136,9 +136,9 @@ export default function Home() {
               <p className="fs-4 mb-4">Chat bots</p>
               <div className="my-2 py-4">
                 <Image
-                  src="/gestao-de-trafego.svg"
-                  alt="Imagem SVG representando dois homens e uma mulher realizando o trabalho de gestão de tráfego para aumentar as vendas."
-                  width={200}
+                  src="/chatbot.svg"
+                  alt="Imagem SVG representando um robô de chatbot."
+                  width={135}
                   height={200}
                   layout="intrinsic"
                 />
