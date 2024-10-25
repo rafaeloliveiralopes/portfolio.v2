@@ -1,4 +1,5 @@
 # Web Development Services Landing Page Project
+![Captura de tela de 2024-10-25 12-40-37](https://github.com/user-attachments/assets/2d3be445-ab17-4313-814c-6479d9c9d612)
 
 ## 1. About the Project
 
