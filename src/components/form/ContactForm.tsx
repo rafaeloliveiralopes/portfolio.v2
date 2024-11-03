@@ -2,6 +2,7 @@
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import "./Form.modules.css";
 import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css'
 
 function ContactForm() {
   const [formData, setFormData] = useState({
