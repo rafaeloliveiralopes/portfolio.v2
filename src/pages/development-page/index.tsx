@@ -114,7 +114,7 @@ export default function DevelopmentPage() {
         {/* Contact Form */}
         <section className="container mt-4 text-center">
           <p className="gradient-paragraph fs-2 fw-bold mt-4">
-            Venha dar vida a sua ideia!
+            Venha dar vida às suas ideias!
           </p>
           <div className="mt-5">
             <Image

@@ -38,7 +38,7 @@ export default function Home() {
             />
           </div>
           <p className="gradient-paragraph fs-2 fw-bold mt-5 mb-4 pb-5 text-center">
-            Faço suas idéias ganhar vida!
+            Faço suas ideias ganhar vida!
           </p>
         </div>
       </section>
@@ -160,7 +160,7 @@ export default function Home() {
         className="container my-5 py-md-5 portfolio-container"
         id="portfolio"
       >
-        <h2 className="fs-1 text-center mb-5">Portfolio</h2>
+        <h2 className="fs-1 text-center mb-5">Portfólio</h2>
         <div className="row row-cols-1 row-cols-md-2 row-cols-sm-1 g-4">
           {projects.map((project, index) => (
             <div key={index} className="col">
@@ -204,8 +204,11 @@ export default function Home() {
       </section>
       {/* Contact Section */}
       <section className="container my-5 text-center">
-        <p className="gradient-paragraph fs-2 fw-bold my-3">
-          Venha dar vida a sua ideia!
+        <p className="gradient-paragraph fs-3 fw-bold my-1">
+          88% dos clientes confiam mais em empresas com sites profissionais.
+        </p>
+        <p className="gradient-paragraph fs-2 fw-bold my-1">
+          Venha dar vida às suas ideias!
         </p>
         <div className="my-4">
           <Image

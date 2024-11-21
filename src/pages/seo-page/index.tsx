@@ -115,7 +115,7 @@ export default function SeoPage() {
         {/* Contact Form */}
         <section className="container mt-5 text-center">
           <p className="gradient-paragraph fs-2 fw-bold mt-5">
-            Venha dar vida a sua ideia!
+            Venha dar vida às suas ideias!
           </p>
           <div className="mt-5">
             <Image

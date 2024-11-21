@@ -273,7 +273,7 @@ export default function About() {
         </section>
         <section className="container my-5 text-center">
           <p className="gradient-paragraph fs-2 fw-bold my-3">
-            Venha dar vida a sua ideia!
+            Venha dar vida às suas ideias!
           </p>
           <div className="my-4">
             <Image

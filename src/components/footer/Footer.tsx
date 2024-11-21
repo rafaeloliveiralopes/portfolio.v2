@@ -53,15 +53,27 @@ export default function Footer() {
         <div className="row">
           <div className="footer-socials col-12 text-center">
             <p>
-              <a href="https://github.com/rafaeloliveiralopes" target="_blank" className="text-decoration-none me-2">
+              <a
+                href="https://github.com/rafaeloliveiralopes"
+                target="_blank"
+                className="text-decoration-none me-2"
+              >
                 GitHub
               </a>
               .
-              <a href="https://www.linkedin.com/in/rafael-lopes-desenvolvedor-fullstack/" target="_blank" className="text-decoration-none mx-2">
+              <a
+                href="https://www.linkedin.com/in/rafael-lopes-desenvolvedor-fullstack/"
+                target="_blank"
+                className="text-decoration-none mx-2"
+              >
                 LinkedIn
               </a>
               .
-              <a href="https://www.instagram.com/rafaellopes.dev/" target="_blank" className="text-decoration-none ms-2">
+              <a
+                href="https://www.instagram.com/rafaellopes.dev/"
+                target="_blank"
+                className="text-decoration-none ms-2"
+              >
                 Instagram
               </a>
             </p>

@@ -46,7 +46,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item mx-3">
               <a className="nav-link text-white" href="/#portfolio">
-                Portfolio
+                Portfólio
               </a>
             </li>
             <li className="nav-item mx-3">

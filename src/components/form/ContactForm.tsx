@@ -2,7 +2,7 @@
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import "./Form.modules.css";
 import { ToastContainer, toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css'
+import "react-toastify/dist/ReactToastify.css";
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -111,7 +111,9 @@ function ContactForm() {
             <option value="">Escolha uma opção...</option>
             <option value="Desenvolvimento Web">Desenvolvimento Web</option>
             <option value="SEO">SEO</option>
-            <option value="Criação e Implementação de Chatbot">Criação e Implementação de chatbot</option>
+            <option value="Criação e Implementação de Chatbot">
+              Criação e Implementação de chatbot
+            </option>
             <option value="Parcerias">Parcerias</option>
             <option value="Outros">Outros</option>
           </select>
