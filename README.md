@@ -46,8 +46,8 @@ The project is configured with modern development practices in mind, integrating
 To clone the repository and install dependencies:
 
 ```sh
-git clone [repository-url]
-cd [repository-name]
+git clone https://github.com/rafaeloliveiralopes/portfolio.v2.git
+cd portfolio.v2
 npm install
 ```
 
