@@ -21,11 +21,14 @@ export default function Home() {
                 algo incrível juntos.
               </p>
             </div>
-            <a href="#services" className="btn-link-custom">
-              <button className="btn home-btn mb-4">
-                Conheça meus serviços
+            <Link href="#services" passHref>
+              <button
+                className="btn-custom fs-5 mb-4"
+                style={{ height: "50px", width: "200px" }}
+              >
+                Meus serviços
               </button>
-            </a>
+            </Link>
           </div>
           <div className="col-xl-3 col-md-4 d-flex justify-content-center align-items-start pt-5 py-md-0 ms-xl-0">
             <Image
@@ -89,7 +92,7 @@ export default function Home() {
         <h3 className="fs-1 my-5 pb-4 text-center">Serviços</h3>
         <div className="container text-center my-5">
           <div className="row">
-            {/* Desenvolvimento */}
+            {/* Development */}
             <div className="col-md-4 mb-5">
               <p className="fs-4 mb-4">Desenvolvimento</p>
               <div className="my-2">
