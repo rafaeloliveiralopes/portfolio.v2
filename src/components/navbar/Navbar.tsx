@@ -52,7 +52,7 @@ export default function Navbar() {
             <li className="nav-item mx-3">
               <a
                 className="nav-link text-white"
-                href="https://wa.me/5562992136842"
+                href="https://wa.me/556292136842?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20um%20projeto%20que%20tenho%20em%20mente."
                 target="_blank"
               >
                 Contato
