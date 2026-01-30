@@ -21,7 +21,7 @@
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "bootstrap": "^5.3.3",
     "lottie-react": "^2.4.0",
-    "next": "^14.2.14",
+    "next": "^16.1.6",
     "nodemailer": "^6.9.15",
     "react": "^18",
     "react-bootstrap": "^2.10.2",
