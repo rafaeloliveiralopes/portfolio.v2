@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import Link from "next/link";
 
 export default function Navbar() {
   const navbarTogglerIconStyle = {
@@ -9,9 +10,9 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg nav-links mt-3">
       <div className="container-fluid">
         <div>
-          <a className="navbar-brand text-light fs-6" href="/">
+          <Link className="navbar-brand text-light fs-6" href="/">
             rafaellopes.dev
-          </a>
+          </Link>
         </div>
         <button
           className="navbar-toggler"
@@ -30,30 +31,35 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item mx-3">
-              <a className="nav-link text-white" aria-current="page" href="/">
+              <Link
+                className="nav-link text-white"
+                aria-current="page"
+                href="/"
+              >
                 Início
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-3">
-              <a className="nav-link text-white" href="/#about">
+              <Link className="nav-link text-white" href="/#about">
                 Sobre mim
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-3">
-              <a className="nav-link text-white" href="/#services">
+              <Link className="nav-link text-white" href="/#services">
                 Serviços
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-3">
-              <a className="nav-link text-white" href="/#portfolio">
+              <Link className="nav-link text-white" href="/#portfolio">
                 Portfólio
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-3">
               <a
                 className="nav-link text-white"
                 href="https://wa.me/556292136842?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20um%20projeto%20que%20tenho%20em%20mente."
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Contato
               </a>

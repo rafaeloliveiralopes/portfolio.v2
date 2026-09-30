@@ -3,8 +3,8 @@ import { useEffect } from "react";
 
 export default function ScriptBootstrap() {
   useEffect(() => {
-    //@ts-ignore
-    import("bootstrap/dist/js/bootstrap.bundle.js");
+    // @ts-expect-error Bootstrap does not publish types for its bundle entrypoint.
+    void import("bootstrap/dist/js/bootstrap.bundle.js");
   }, []);
   return <></>;
 }
