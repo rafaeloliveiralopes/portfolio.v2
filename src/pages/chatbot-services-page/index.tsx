@@ -7,7 +7,13 @@ import Image from "next/image";
 import ContactForm from "@/components/form/ContactForm";
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { Player } from "@lottiefiles/react-lottie-player";
+import dynamic from "next/dynamic";
+
+const Player = dynamic(
+  () =>
+    import("@lottiefiles/react-lottie-player").then((module) => module.Player),
+  { ssr: false },
+);
 
 interface Service {
   title: string;
